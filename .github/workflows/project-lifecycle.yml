@@ -15,162 +15,119 @@ permissions:
   pull-requests: read
 
 jobs:
-  inbox:
-    if: github.event_name == 'issues' && github.event.action == 'opened'
+  transition:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          target-status: Inbox
 
-  research:
-    if: github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'needs-research'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          target-status: Research
-          allowed-current-statuses: Inbox,Ready
-
-  ready:
-    if: github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'research-complete'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          target-status: Ready
-          allowed-current-statuses: Inbox,Research
-
-  agent-executing:
-    if: github.event_name == 'issues' && github.event.action == 'assigned' && (github.event.assignee.login == 'Codex' || github.event.assignee.login == 'copilot-swe-agent[bot]' || github.event.assignee.login == 'openai-code-agent[bot]' || github.event.assignee.login == 'anthropic-code-agent[bot]')
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          target-status: Executing
-          allowed-current-statuses: Inbox,Research,Ready
-
-  executing:
-    if: github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Resolve Issue from branch
-        id: issue
+      - name: Resolve lifecycle transition
+        id: transition
         env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          ACTION: ${{ github.event.action }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          LABEL_NAME: ${{ github.event.label.name }}
+          ASSIGNEE_LOGIN: ${{ github.event.assignee.login }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_DRAFT: ${{ github.event.pull_request.draft }}
+          PR_MERGED: ${{ github.event.pull_request.merged }}
           REF_NAME: ${{ github.ref_name }}
         shell: bash
         run: |
           set -euo pipefail
-          [[ "$REF_NAME" =~ ^issue-([0-9]+)(-|$) ]] || { echo 'Not an Issue-linked branch.' >&2; exit 1; }
-          echo "number=${BASH_REMATCH[1]}" >> "$GITHUB_OUTPUT"
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ steps.issue.outputs.number }}
-          target-status: Executing
-          allowed-current-statuses: Inbox,Research,Ready
 
-  review:
-    if: github.event_name == 'pull_request' && github.event.action != 'closed' && github.event.pull_request.draft == false
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: read
-    steps:
-      - uses: actions/checkout@v4
-      - name: Resolve governing Issue from PR
-        id: issue
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          data="$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json closingIssuesReferences,body,headRefName)"
-          issue="$(jq -r '.closingIssuesReferences[0].number // empty' <<<"$data")"
-          if [ -z "$issue" ]; then
-            body="$(jq -r '.body // ""' <<<"$data")"
-            if [[ "$body" =~ (Refs|Fixes|Closes|Resolves)[[:space:]]+#([0-9]+) ]]; then issue="${BASH_REMATCH[2]}"; fi
-          fi
-          if [ -z "$issue" ]; then
-            head="$(jq -r '.headRefName' <<<"$data")"
-            if [[ "$head" =~ ^issue-([0-9]+)(-|$) ]]; then issue="${BASH_REMATCH[1]}"; fi
-          fi
-          test -n "$issue" || { echo 'No governing Issue could be resolved from PR.' >&2; exit 1; }
-          echo "number=$issue" >> "$GITHUB_OUTPUT"
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ steps.issue.outputs.number }}
-          target-status: Review
-          allowed-current-statuses: Inbox,Research,Ready,Executing
+          issue=""
+          target=""
+          allowed=""
 
-  qa:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: read
-    steps:
-      - uses: actions/checkout@v4
-      - name: Resolve governing Issue from merged PR
-        id: issue
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          data="$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json closingIssuesReferences,body,headRefName)"
-          issue="$(jq -r '.closingIssuesReferences[0].number // empty' <<<"$data")"
-          if [ -z "$issue" ]; then
-            body="$(jq -r '.body // ""' <<<"$data")"
-            if [[ "$body" =~ (Refs|Fixes|Closes|Resolves)[[:space:]]+#([0-9]+) ]]; then issue="${BASH_REMATCH[2]}"; fi
-          fi
-          if [ -z "$issue" ]; then
-            head="$(jq -r '.headRefName' <<<"$data")"
-            if [[ "$head" =~ ^issue-([0-9]+)(-|$) ]]; then issue="${BASH_REMATCH[1]}"; fi
-          fi
-          test -n "$issue" || { echo 'No governing Issue could be resolved from merged PR.' >&2; exit 1; }
-          echo "number=$issue" >> "$GITHUB_OUTPUT"
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ steps.issue.outputs.number }}
-          target-status: QA
-          allowed-current-statuses: Executing,Review
+          if [ "$EVENT_NAME" = "issues" ]; then
+            issue="$ISSUE_NUMBER"
+            case "$ACTION" in
+              opened)
+                target="Inbox"
+                ;;
+              labeled)
+                case "$LABEL_NAME" in
+                  needs-research)
+                    target="Research"
+                    allowed="Inbox,Ready"
+                    ;;
+                  research-complete)
+                    target="Ready"
+                    allowed="Inbox,Research"
+                    ;;
+                  *) exit 0 ;;
+                esac
+                ;;
+              assigned)
+                case "$ASSIGNEE_LOGIN" in
+                  Codex|copilot-swe-agent[bot]|openai-code-agent[bot]|anthropic-code-agent[bot])
+                    target="Executing"
+                    allowed="Inbox,Research,Ready"
+                    ;;
+                  *) exit 0 ;;
+                esac
+                ;;
+              closed)
+                target="Done"
+                ;;
+              reopened)
+                target="Ready"
+                ;;
+              *) exit 0 ;;
+            esac
 
-  done:
-    if: github.event_name == 'issues' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/set-drf-project-status
-        with:
-          token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          target-status: Done
+          elif [ "$EVENT_NAME" = "push" ]; then
+            [[ "$REF_NAME" =~ ^issue-([0-9]+)(-|$) ]] || exit 0
+            issue="${BASH_REMATCH[1]}"
+            target="Executing"
+            allowed="Inbox,Research,Ready"
 
-  reopened:
-    if: github.event_name == 'issues' && github.event.action == 'reopened'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/set-drf-project-status
+          elif [ "$EVENT_NAME" = "pull_request" ]; then
+            if [ "$ACTION" = "closed" ] && [ "$PR_MERGED" != "true" ]; then
+              exit 0
+            fi
+            if [ "$ACTION" != "closed" ] && [ "$PR_DRAFT" = "true" ]; then
+              exit 0
+            fi
+
+            data="$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json closingIssuesReferences,body,headRefName)"
+            issue="$(jq -r '.closingIssuesReferences[0].number // empty' <<<"$data")"
+            if [ -z "$issue" ]; then
+              body="$(jq -r '.body // ""' <<<"$data")"
+              if [[ "$body" =~ (Refs|Fixes|Closes|Resolves)[[:space:]]+#([0-9]+) ]]; then
+                issue="${BASH_REMATCH[2]}"
+              fi
+            fi
+            if [ -z "$issue" ]; then
+              head="$(jq -r '.headRefName' <<<"$data")"
+              if [[ "$head" =~ ^issue-([0-9]+)(-|$) ]]; then
+                issue="${BASH_REMATCH[1]}"
+              fi
+            fi
+            test -n "$issue" || { echo 'No governing Issue could be resolved from PR.' >&2; exit 1; }
+
+            if [ "$ACTION" = "closed" ]; then
+              target="QA"
+              allowed="Executing,Review"
+            else
+              target="Review"
+              allowed="Inbox,Research,Ready,Executing"
+            fi
+          else
+            exit 0
+          fi
+
+          echo "issue=$issue" >> "$GITHUB_OUTPUT"
+          echo "target=$target" >> "$GITHUB_OUTPUT"
+          echo "allowed=$allowed" >> "$GITHUB_OUTPUT"
+
+      - name: Apply lifecycle transition
+        if: steps.transition.outputs.issue != ''
+        uses: ./.github/actions/set-drf-project-status
         with:
           token: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          target-status: Ready
+          issue-number: ${{ steps.transition.outputs.issue }}
+          target-status: ${{ steps.transition.outputs.target }}
+          allowed-current-statuses: ${{ steps.transition.outputs.allowed }}
