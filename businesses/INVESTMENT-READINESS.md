@@ -1,10 +1,10 @@
 # DRF Business Investment Readiness
 
 **Status:** Canonical migration and investment-gate register  
-**Version:** 2.0  
-**Date:** 5 September 2026  
+**Version:** 2.1  
+**Date:** 6 September 2026  
 **Governing issue:** #60  
-**Latest targeted rebuild:** Expansion-first correction + GoHighLevel core-opportunity restoration — Issue #169 — 5 September 2026  
+**Latest targeted rebuild:** Daily intelligence expansion + Vertical AI distributor-order underwriting — Issue #173 — 6 September 2026  
 **Source portfolio:** `businesses/OPPORTUNITIES.md`  
 **Niche source:** `businesses/NICHES.md`
 
@@ -29,7 +29,7 @@ DRF normally defines the **measurable result sold**, then ranks the niches where
 
 That rule has an explicit platform-led exception: when a platform materially defines the sellable packaging, reusable deployment assets, automated provisioning, recurring/rebilling economics, marketplace/distribution or buyer proposition, it may remain part of a first-class opportunity identity. Shared technology or overlapping outcomes alone do not make an opportunity an exact commercial duplicate.
 
-**Current active parent opportunity count: 28.** This is a state count, not a target or ceiling. **50+ qualified active opportunities is a near-term expansion milestone, not a cap.**
+**Current active parent opportunity count: 29.** This is a state count, not a target or ceiling. **50+ qualified active opportunities is a near-term expansion milestone, not a cap.**
 
 For digital products, distribution is a separate downstream layer unless the distribution/platform mechanics materially define an independently testable commercial model:
 
@@ -65,9 +65,10 @@ The niche score remains separate from RBS. A niche can be attractive while the d
 | **2** | **Agentic Commerce Visibility & Conversion Engine** | Keep complex merchant catalogue truth AI-ready, measure AI discovery/referral and improve attributable conversion across emerging AI shopping surfaces. | **89** | **82** | **P1 Desk Underwritten** | **TEST** | **$0 until merchant access; then up to $3,000 with founder approval** | **EMP3 / 91% validates a paid AI-visibility/optimisation market. Base desk case: 5 merchants × AED4,000/month = AED20,000 MRR; attribution, regional AI traffic, native-platform substitution and integration effort remain the live gates.** | **No** | Run 3–5 merchant baseline/optimisation studies, including at least two complex multi-channel/non-simple-Shopify catalogues; require measurable improvement on at least one merchant, ≥2 recurring paid commitments and bounded delivery effort. |
 | **2** | **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | Package one narrow vertical operating system into a reusable SaaS/snapshot foundation that can be deployed repeatedly with recurring margin. | **89** | Pending | Pending | **RESEARCH** | **$0** | Pending | **No** | Select one vertical and prove a second unrelated paying customer can be deployed from substantially the same GoHighLevel foundation with bounded onboarding/support and attractive recurring gross contribution. |
 | **2** | **AI Recommendation Visibility & GEO Engine** | Measure whether a service brand is accurately recommended/cited in AI answers, improve evidence-backed discoverability gaps, re-test with the same instrument and monitor it monthly. | **88** | **81** | **P1 Desk Underwritten** | **TEST** | **$0 now; up to $3,000 only after founder approval if required** | **EMP3 Market Proven / 90%. Best current niche is Dubai company-formation/business-setup consultancies at 86/100 / 82% confidence. Base estimate: 3 clients × AED1,500/month = AED4,500 MRR plus AED7,500 setup; local CAC, human delivery minutes, outcome change, attribution and renewal remain live gates.** | **No** | After founder approval, test 10 qualified Dubai business-setup consultancies using one versioned public baseline; require 2 unrelated paid deposits at ≥AED2,500 setup + ≥AED1,500/month, at least one non-personal-favour acquisition and baseline delivery ≤3 human hours/account. |
-| **2** | **Vertical AI Operating Systems & Agent Integration Packs** | Automate one valuable vertical operating workflow end-to-end with a repeatable implementation pack. | **88** | Pending | Pending | RESEARCH | $0 | Pending | No | Define one sellable pack and prove second-client reuse. |
+| **2** | **Vertical AI Operating Systems & Agent Integration Packs** | Automate one valuable vertical operating workflow end-to-end with a repeatable implementation pack. | **88** | **85** | **P1 Desk Underwritten** | **TEST** | **$0 now; up to $3,000 only after founder-approved paid commitment if required** | **EMP3 Market Proven / 92%. Best current niche is UAE building-material/industrial-supply distributor order desks at 89/100 / 92% confidence. Local public software pricing supports setup + MRR; the live margin gate is ERP/SKU integration variance and human exception minutes.** | **No** | One unrelated UAE distributor: replay ≥50 historic orders; require paid deposit ≥AED5,000 against ≥AED12,500 setup + ≥AED2,500/month; target ≥70% safely auto-draftable after configured rules, zero unreviewed material SKU/price/credit commitments and a credible client-2 reuse path. |
 | **2** | **Recruitment OS / Hiring Intelligence SaaS** | Standardise role calibration, interview evidence, shortlist comparison and client decision packs around the agency's existing ATS. | **87** | **82** | **P1 Desk Underwritten** | **TEST** | **$0 new platform build; up to $3,000 only after founder-approved paid commitment if required** | **EMP3 Market Proven / 91%. Best niche is UAE/GCC boutique recruitment agencies / RPOs at 81/100 / 90% confidence. Illustrative base case 5 agencies × AED2,500/month = AED12,500 MRR; no DRF revenue actual. Integration variance, human QA, incumbent substitution and renewal are the live gates.** | **No** | Sell one fixed Hiring Intelligence module to one unrelated UAE/GCC agency around its existing ATS; require paid/current-market commitment, real client-facing shortlist use, bounded onboarding/QA, measurable recruiter/evidence improvement and renewal or second-role reuse. |
 | **2** | **Autonomous AI Revenue Operations Business-in-a-Box** | Productise bounded revenue-producing agent workflows that acquire, process or protect revenue while keeping fully loaded cost below customer value. | **87** | Pending | Pending | RESEARCH | $0 | Pending | No | Run one vendor-neutral high-value workflow, measure cost/success/human recovery, then prove second-client reuse and managed-operations renewal. |
+| **2** | **AI-Enabled Finance Operations & Bookkeeping** | Keep UAE SME books reconciled and management-ready each month with AI-assisted processing, qualified-accountant review and regulated tax-agent/audit handoff where required. | **86** | **84** | **P1 Desk Underwritten** | **TEST** | **$0 now; up to $3,000 only after founder-approved paid commitment if required** | **EMP3 Market Proven / 90%. Best niche is UAE service SMEs with 30–150 monthly transactions/no in-house finance at 84/100 / 90% confidence. Public UAE recurring pricing and AI-native operators validate demand; accountant-review/cleanup economics, data governance and local acquisition remain the live gates. Desk illustration: 5 × AED1,500/month = AED7,500 MRR plus onboarding, not a forecast.** | **No** | Secure 2 unrelated paid monthly clients at ≥AED1,250/month with qualified-accountant/tax-agent boundary documented; measure onboarding, accountant-review minutes, exceptions, software cost, gross contribution and renewal. |
 | **2** | **Reputation & Local Visibility Engine** | Generate more trusted local visibility, reviews and attributable enquiries for local businesses. | **85** | Pending | Pending | RESEARCH | $0 | Pending | No | Rebuild attached-module price, lead impact, retention and paid growth. |
 | **2** | **White-Label Hiring Portal for Employers/Agencies** | Give agencies/employers a branded candidate workflow without requiring them to build an ATS. | **85** | Pending | Pending | RESEARCH | $0 | Pending | No | Test paid delivery wrapper without ATS rebuild. |
 | **2** | **UAE/GCC Talent Intelligence & Salary Data Subscription** | Give employers and recruiters current regional talent and salary intelligence as a recurring decision product. | **85** | Pending | Pending | RESEARCH | $0 | Pending | No | Verify lawful data, price, buyer demand and recurring update cost. |
@@ -148,9 +149,6 @@ The deeper underwriting migration is complete when every active opportunity has,
 - Revenue Blueprint Score;
 - DRF Proof;
 - Stage;
-- capital and founder-time requirement;
-- monthly/annual Return Profile;
-- current offer/pricing/GTM/delivery architecture;
-- next proof milestone;
-- linked evidence and financial model;
-- reconciled `businesses/PORTFOLIO-V3.md` founder state.
+- Capital and Return Profile;
+- one explicit Next Proof;
+- V3 reconciliation completed last when founder fields change.
