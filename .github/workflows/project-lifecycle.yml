@@ -62,7 +62,7 @@ jobs:
                 ;;
               assigned)
                 case "$ASSIGNEE_LOGIN" in
-                  Codex|copilot-swe-agent[bot]|openai-code-agent[bot]|anthropic-code-agent[bot])
+                  Codex|'copilot-swe-agent[bot]'|'openai-code-agent[bot]'|'anthropic-code-agent[bot]')
                     target="Executing"
                     allowed="Inbox,Research,Ready"
                     ;;
