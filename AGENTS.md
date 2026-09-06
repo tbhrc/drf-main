@@ -1,33 +1,28 @@
 # AGENTS.md — Repository Router
 
-This file is the repository **Router** and cold-start contract. Read it first. Follow only the Fast Link needed for the task; do not preload linked material.
+Read this first. Follow only the link needed for the task; do not preload documentation.
 
-**Core Fast Links:** [Workflow](https://github.com/tbhrc/skills/tree/main/github-agent-workflow) · [Governance](https://github.com/tbhrc/skills/tree/main/governance) · [Terminology](https://github.com/tbhrc/skills/blob/main/governance/policies/agent-operating-system-terminology.md) · [Context Budget](https://github.com/tbhrc/skills/blob/main/governance/policies/agent-operating-system-context-budget.md) · [Issue Template](https://github.com/tbhrc/skills/blob/main/.github/ISSUE_TEMPLATE/durable-work.md) · [Sniper](https://github.com/tbhrc/skills/blob/main/human-ai-operations-map/references/ai-sniper-entry-map.md) · [Multi-Agent Orchestrator](https://github.com/tbhrc/skills/tree/main/github-multi-agent-orchestrator)
+**Core Fast Links:** [Workflow](https://github.com/tbhrc/skills/tree/main/github-agent-workflow) · [Anti-Friction Security](https://github.com/tbhrc/skills/blob/main/governance/policies/real-boundary-security-and-friction.md) · [Sniper](https://github.com/tbhrc/skills/blob/main/human-ai-operations-map/references/ai-sniper-entry-map.md) · [Multi-Agent Orchestrator](https://github.com/tbhrc/skills/tree/main/github-multi-agent-orchestrator)
 
-<!-- REPOSITORY_FAST_LINKS_START -->
 **Repository Fast Links:** [Opportunities](https://github.com/tbhrc/skills/tree/main/drf-opportunity-factory) · [BD](bd/README.md) · [Intelligence](https://github.com/tbhrc/skills/tree/main/automations-drf-intelligence) · [Portfolio](businesses/PORTFOLIO-V3.md) · [CRM](https://github.com/tbhrc/drf-main/issues/157) · [Research](https://github.com/tbhrc/research) · [Issues](https://github.com/tbhrc/drf-main/issues)
-<!-- REPOSITORY_FAST_LINKS_END -->
 
 ## Route
 
-- **Known owner + bounded task** → use the most-specific repository Fast Link / Skill and execute.
-- **Owner or source unclear** → use [Sniper](https://github.com/tbhrc/skills/blob/main/human-ai-operations-map/references/ai-sniper-entry-map.md).
-- **Normal authorised durable GitHub work** → Level 0 Direct; load [Workflow](https://github.com/tbhrc/skills/tree/main/github-agent-workflow) only when Hybrid or Controlled may be needed.
-- **Private cross-repository GitHub access** → never assume a repository `GITHUB_TOKEN` crosses private repository boundaries; use the relevant proven authorised operator/access mechanism already documented in canonical Skills/capabilities rather than inventing credentials.
-- **Multiple agents, specialist delegation or genuine parallel work** → use [Multi-Agent Orchestrator](https://github.com/tbhrc/skills/tree/main/github-multi-agent-orchestrator).
-- **Governed boundary** → load only the exact relevant [Governance](https://github.com/tbhrc/skills/tree/main/governance) Policy/SOP.
-- **Creating a new durable Issue** → use the canonical [Issue Template](https://github.com/tbhrc/skills/blob/main/.github/ISSUE_TEMPLATE/durable-work.md).
-- **Material new/changed founder instruction** → update the controlling Issue first, then continue.
+- **Known owner + bounded task** → execute with the most-specific Skill/tool.
+- **Owner unclear** → use Sniper once, then execute.
+- **Ordinary authorised work** → Level 0 Direct.
+- **Genuine specialist/parallel need** → Multi-Agent Orchestrator only when one direct stream is insufficient.
+- **Actual consequential boundary** → load only the exact relevant policy/control.
 
 ## Rules
 
-- Fast Links are pointers, not preload instructions.
-- Reusable HOW belongs in canonical Skills; load only the Skill needed for the task.
-- Use one controlling Issue for substantive durable work and recover from Issue + current `main`, not chat reconstruction.
-- Founder-facing output: make every mentioned navigable GitHub object clickable when a stable URL is known. For substantive durable work, always state the controlling Issue as a compact clickable `#<number>` label, with repository context when needed to avoid ambiguity.
-- Fresh-read targets, preserve unrelated newer work, and keep one active writer per unresolved mutation scope.
-- Never commit secrets, credentials, private candidate/client evidence or unnecessary PII.
-- Root/security, production/destructive, spend, private-data, legal/compliance and material client-commitment gates remain binding when crossed.
-- Verify the requested outcome once, update/close the controlling Issue with DONE or one exact blocker/next action, then stop.
+- **Work first.** Do not create/update/check an Issue, label, comment, approval, plan, benchmark, proof workflow or documentation merely to unlock execution.
+- Issues are optional continuity/evidence records, never runtime permission.
+- **Friction masquerading as security is prohibited.** Use purpose-fit authority sufficient for the intended function; do not narrow access or add credential/approval layers without a concrete current boundary.
+- Human approval is reserved for genuine consequential boundaries: root/super-admin authority changes, destructive/irreversible actions, spend, legal/compliance commitments, private-data disclosure or material external/client commitments.
+- Reusable HOW belongs in canonical Skills; load only what the task needs.
+- Preserve unrelated newer work and avoid concurrent mutation collisions where they are real.
+- Never expose secrets or unnecessary private/client data.
+- Verify the requested outcome once, record continuity only when useful, then stop.
 
-**Issue keeps continuity. `main` keeps progress. KISSS keeps speed.**
+**`main` keeps progress. KISSS keeps speed. Security protects real boundaries, not paperwork.**
