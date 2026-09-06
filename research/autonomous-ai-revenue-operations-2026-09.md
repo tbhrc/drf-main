@@ -2,7 +2,7 @@
 
 **Status:** Current rolling monthly research file  
 **Parent opportunity:** Autonomous AI Revenue Operations Business-in-a-Box  
-**Run:** 2026-09-01 — Week 1  
+**Runs:** 2026-09-01 — Week 1 · 2026-09-06 — Week 2  
 **Canonical parent folder:** `businesses/grok-bot-ai-revenue-operations/`
 
 ## Executive conclusion
@@ -217,7 +217,9 @@ Sources:
 
 FIDO Alliance is separately developing standards for trusted agent interactions and agent-initiated commerce, drawing on AP2 and Mastercard Verifiable Intent.
 
-Source: https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/
+Source:
+
+- https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/
 
 ### DRF read
 
@@ -241,7 +243,9 @@ Do not give unrestricted treasury authority.
 
 AWS Marketplace currently advertises **thousands of agents, tools and services** from partners, including pre-built agents, MCP/tool products, development solutions and professional services.
 
-Source: https://aws.amazon.com/marketplace/solutions/ai-agents-and-tools/
+Source:
+
+- https://aws.amazon.com/marketplace/solutions/ai-agents-and-tools/
 
 ### Discovery is still unsolved
 
@@ -322,7 +326,7 @@ The moat is not the model or prompt. It must become **niche playbooks + integrat
 
 # 10. Score-factor reconciliation
 
-Current framework: `knowledge/guidelines/business-opportunity-scoring-framework.md` v2.0.
+Current framework at the Week 1 run used the then-DRF scoring contract; the current reusable owner is now `tbhrc/skills/drf-opportunity-factory/references/business-opportunity-scoring.md` with the same 15 weighted structural factors.
 
 | Factor | Weight | Old | New | Why |
 |---|---:|---:|---:|---|
@@ -402,9 +406,9 @@ Then sell a **second deployment from materially the same package**. Second-clien
 
 ---
 
-# 12. Repository reconciliation for this run
+# 12. Repository reconciliation for Week 1
 
-This run requires canonical updates to:
+The Week 1 run updated:
 
 - `businesses/grok-bot-ai-revenue-operations/CURRENT.md`;
 - `businesses/OPPORTUNITIES.md`;
@@ -413,8 +417,207 @@ This run requires canonical updates to:
 - `businesses/INVESTMENT-READINESS.md` where the Layer-1 score/name is surfaced;
 - `research/recurring-intelligence/AUTONOMOUS-AI-REVENUE-OPERATIONS-RUNS.md`.
 
-No new niche dossier is created because the broader parent has not yet produced a newly validated niche score.
+No new niche dossier was created because the broader parent had not yet produced a newly validated niche score.
 
-## Current decision
+## Week 1 decision
 
 **ADVANCE as a structurally exceptional 87/100 opportunity, but keep Stage at Candidate/RESEARCH. Sell one narrow revenue workflow before building more infrastructure.**
+
+---
+
+# Week 2 — 2026-09-06
+
+**Controlling Issue:** https://github.com/tbhrc/drf-main/issues/174  
+**Canonical external evidence:** https://github.com/tbhrc/research/blob/main/research/business-models/autonomous-ai-revenue-operations.md
+
+## Week 2 executive conclusion
+
+The category strengthened again during the five days since Week 1, but **the founder-facing DRF fields do not change**.
+
+Material new evidence includes:
+
+1. OpenAI released **GPT-6 Astra** on 3 September, materially raising the ceiling for computer use, long-running reasoning and end-to-end agent work, at a frontier price of **US$10/M input and US$50/M output**.
+2. Anthropic's **Claude Fable 5.1** targets long-running multi-application agent work at the same US$10/M input and US$50/M output frontier tier, with substantially cheaper cache reads.
+3. Genesys independently reported **more than US$400M of Genesys Cloud AI ARR**, adding a strong recurring-revenue signal outside the Salesforce/Workday evidence already captured.
+4. Salesforce's Headless 360, Boomi Agent Control Plane and Anthropic Enterprise Frontier Safeguards show enterprise software shifting from custom agent integrations toward **governed native capabilities, MCP/Skills, scoped identity, monitoring and control planes**.
+5. Coinbase's Agentic.Market reports meaningful x402 transaction activity and thousands of machine-purchasable services, strengthening the case that agent-to-agent commerce is moving beyond protocol experiments.
+
+The same evidence also strengthens the counter-thesis: **generic agent integration is commoditising** as incumbent platforms expose governed agent surfaces. DRF should sell the measurable revenue outcome, operating playbook, monitoring/evals and recurring management—not the connector or model.
+
+## 1. Model and routing delta
+
+### GPT-6 Astra
+
+Current OpenAI pricing:
+
+| Model | Input / 1M | Cached input / 1M | Output / 1M | DRF role |
+|---|---:|---:|---:|---|
+| GPT-5.6 Luna | $0.20 | $0.02 | $1.20 | routine/high-volume judgement |
+| GPT-5.6 Terra | $2.00 | $0.20 | $12.00 | stronger general execution |
+| GPT-5.6 Sol | $4.00 | $0.40 | $20.00 | complex/high-value reasoning |
+| **GPT-6 Astra** | **$10.00** | **$1.00** | **$50.00** | frontier escalation for the hardest/highest-value work |
+
+Sources:
+
+- https://developers.openai.com/api/docs/models/gpt-6-astra
+- https://help.openai.com/en/articles/20001415-chatgpt-rate-card-enterprise-token-based-pricing
+- https://openai.com/products/release-notes/
+
+Astra improves computer use and complex multi-step work and supports a 1.05M-token context window. It does **not** make cheap-model routing obsolete. It makes a fourth escalation tier economically useful where failure cost or task value justifies it.
+
+### Claude Fable 5.1
+
+Anthropic's current frontier agent model is priced at **US$10/M input and US$50/M output**, with **US$0.25/M cache reads**. Anthropic positions it for long-running jobs spanning multiple applications, browser work and managed agents.
+
+Source:
+
+- https://www.anthropic.com/claude/fable
+
+### Routing decision
+
+Refine the execution stack to:
+
+```text
+governed native API/MCP/Skill action where available
+→ deterministic workflow for predictable steps
+→ cheapest passing model for routine judgement
+→ stronger model for difficult reasoning
+→ frontier escalation only when expected value justifies it
+→ browser/computer-use only for genuine gaps
+```
+
+This is a strategy refinement, not a score-factor change.
+
+## 2. Enterprise adoption delta
+
+Genesys reported on 2 September 2026:
+
+- Genesys Cloud ARR nearly **US$2.9B**, up more than 30% YoY;
+- Genesys Cloud AI ARR **above US$400M**;
+- AI ARR growing at more than twice the overall Genesys Cloud ARR rate;
+- NRR above 120% for more than 12 consecutive quarters.
+
+Source:
+
+- https://www.genesys.com/company/newsroom/announcements/genesys-announces-strong-second-quarter-fiscal-year-2027-momentum-and-accelerates-agentic-orchestration-at-enterprise-scale
+
+**DRF read:** this strengthens the existing Market Size, Growth, Timing and WTP evidence, but those factor judgements are already 10/10, 10/10, 10/10 and 9/10 respectively. It therefore increases confidence in existing values rather than mechanically inflating the score.
+
+## 3. Native integration and substitute risk
+
+Salesforce's Headless 360 expansion makes Salesforce capabilities available to authorized agents through MCP while retaining existing identity, permissions, metadata, workflows and governance. Salesforce states that more than **100 reusable Agent Skills** are available and Data 360 exposes nearly **200 APIs** through MCP. It cites Engine launching an AI support agent in 12 days that now resolves half of customer chat interactions without a human.
+
+Sources:
+
+- https://www.salesforce.com/ap/news/press-releases/2026/08/25/salesforce-turns-enterprise-applications-into-enterprise-capabilities/
+- https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/headless-360-mcp.html
+
+Boomi's September release similarly packages an Agent Control Plane, MCP Gateway and AI Gateway for agent connectivity, policy enforcement, governance and cost control.
+
+Sources:
+
+- https://boomi.com/platform/agent-control-plane/
+- https://boomi.com/product-updates/sep-2026/
+
+**DRF read:** native capability improves deliverability and speed but weakens the moat of generic implementation. **AI Deliverability remains 8 and Defensibility remains 5.** The business must own the vertical outcome and operating evidence.
+
+## 4. Security and human-control boundary
+
+Anthropic announced Enterprise Frontier Safeguards on 1 September, developed with more than 100 enterprise customers. It allows eligible customers to keep monitoring data in customer-controlled cloud infrastructure under their own encryption keys, access policies and audit logging while automated monitoring detects serious misuse patterns.
+
+Source:
+
+- https://www.anthropic.com/news/enterprise-frontier-safeguards
+
+Anthropic also disclosed on 31 August that models in reduced-safeguard/misconfigured evaluation environments had taken unauthorized actions on real systems, leading to stronger sandboxing, monitoring, scope-setting and intervention controls.
+
+Source:
+
+- https://www.anthropic.com/news/improving-alignment-security-efforts
+
+OpenAI says Astra is more robust to prompt injection and safer in realistic browsing/workplace settings than GPT-5.6 Sol, but it is also the first OpenAI model to reach the company's **Critical** cyber-capability threshold and therefore ships with additional monitoring for tool-using inference.
+
+Source:
+
+- https://openai.com/index/safety-overview-gpt-6-astra/
+
+**DRF read:** stronger safeguards improve deployability, but the market's own architecture confirms that scoped identity, permissions, audit, monitoring and human intervention remain real production requirements. **Low Human Dependency remains 7.**
+
+## 5. Agent commerce delta
+
+Coinbase's Agentic.Market launch reports an x402 ecosystem of **165M+ transactions, approximately US$50M+ volume and 480K+ agents**, with thousands of services and live machine-readable pricing/transaction data.
+
+Source:
+
+- https://www.coinbase.com/developer-platform/discover/launches/agentic-market
+
+This is stronger evidence that machine purchasing has real usage. It still does not prove durable buyer liquidity for DRF-style managed revenue agents, and headline crypto-native transaction counts are not equivalent to recurring B2B customer revenue.
+
+**DRF decision:** keep direct B2B outcome sales primary; treat agent marketplaces/payment rails as secondary distribution/input infrastructure.
+
+## 6. UAE offer calibration
+
+DVNC continues to publish:
+
+- AI Readiness Sprint: **AED18,000**;
+- AI Agent Build: **from AED90,000**;
+- Managed AI Operations: **AED25,000/month**, three-month minimum.
+
+Sources:
+
+- https://dvnc.ae/pricing
+- https://dvnc.ae/services/managed-ai-operations
+
+This corroborates the setup + managed-operations ladder. It remains asking-price evidence, not customer/revenue/retention proof.
+
+## 7. Week 2 score review
+
+Current canonical scoring owner:
+
+`tbhrc/skills/drf-opportunity-factory/references/business-opportunity-scoring.md`
+
+| Factor / field | Week 1 | Week 2 | Decision |
+|---|---:|---:|---|
+| Opportunity Score | 87 | **87** | No underlying weighted factor changes |
+| MRR | 9/10 | **9/10** | Recurring market evidence stronger, already correctly scored |
+| AI Autonomy | 85/100 | **85/100** | Better frontier capability offset by unchanged governance/recovery boundaries |
+| Evidence Confidence | 94% | **94%** | Category evidence stronger; exact managed-service repeatability still unproven |
+| Research Completeness | 100% | **100%** | Full factor coverage maintained |
+| EMP | EMP2 / 90% | **EMP2 / 90%** | Enterprise agent market is strongly proven; exact DRF managed-agent adaptation still lacks sustained multi-operator realised revenue/retention evidence |
+| Stage | Candidate / RESEARCH | **Candidate / RESEARCH** | No DRF execution proof added |
+
+### Why no score increase
+
+The new evidence mostly strengthens factors already scored near their justified ceiling. It does **not** resolve the remaining limiting factors:
+
+- Defensibility = 5;
+- Paid Growth = 7;
+- Low Human Dependency = 7;
+- AI Deliverability = 8;
+- Margin = 8;
+- Scalability = 8.
+
+Those now require actual delivery/acquisition/retention evidence, not another vendor announcement.
+
+## 8. Week 2 strategy decision
+
+**NO FIELD CHANGE. Strategy becomes more specific:**
+
+1. Prefer governed native API/MCP/Skill capabilities before browser automation.
+2. Preserve cheap-model routing; add GPT-6 Astra/Fable-class models as frontier escalation, not defaults.
+3. Package identity, permissions, monitoring, evals and audit as part of managed operations.
+4. Assume generic agent integration will commoditise; build moat from vertical workflow ownership, measured outcomes, reusable QA/evals, benchmark data and distribution.
+5. Keep agent-native payment/marketplace channels secondary until buyer liquidity for the target service is proven.
+6. Stop seeking desk-score uplift. The next useful evidence is one measurable production workflow, then a second materially similar deployment and recurring renewal.
+
+## Week 2 repository reconciliation
+
+Material external evidence is now canonical in:
+
+- `tbhrc/research/research/business-models/autonomous-ai-revenue-operations.md`.
+
+DRF founder fields were reviewed against the new evidence and remain unchanged. Record the deliberate no-field-change reconciliation in `businesses/V3-RECONCILIATIONS.md` and the completed specialist run in `research/recurring-intelligence/AUTONOMOUS-AI-REVENUE-OPERATIONS-RUNS.md`.
+
+## Current decision after Week 2
+
+**KEEP 87/100. The business thesis strengthened, but the remaining proof is operational: execute a narrow revenue workflow, measure fully loaded contribution and human recovery, then prove second-client reuse and recurring managed-operations renewal.**
