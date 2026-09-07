@@ -9,16 +9,15 @@ on:
 
 permissions:
   contents: read
-
 jobs:
   validate-fast-links:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     steps:
       - uses: actions/checkout@v4
       - name: Validate Fast Links
         shell: bash
         run: |
-          python - <<'PY'
+          python3 - <<'PY'
           import re, sys
           from pathlib import Path
           from urllib.parse import unquote
