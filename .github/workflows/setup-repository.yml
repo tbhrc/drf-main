@@ -10,11 +10,10 @@ on:
 permissions:
   contents: read
   issues: write
-
 jobs:
   labels:
     if: github.actor == 'tbhrc'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
