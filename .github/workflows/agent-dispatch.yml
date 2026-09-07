@@ -21,7 +21,7 @@ permissions:
 jobs:
   resolve:
     if: github.actor == 'tbhrc'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     outputs:
       issue: ${{ steps.route.outputs.issue }}
       executor: ${{ steps.route.outputs.executor }}
@@ -68,7 +68,7 @@ jobs:
   cloud-agent:
     needs: resolve
     if: needs.resolve.outputs.supported == 'true' && needs.resolve.outputs.executor != 'gemini'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     permissions:
       contents: read
       issues: write
@@ -129,7 +129,7 @@ jobs:
   gemini:
     needs: resolve
     if: needs.resolve.outputs.supported == 'true' && needs.resolve.outputs.executor == 'gemini'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     timeout-minutes: 15
     permissions:
       contents: write
