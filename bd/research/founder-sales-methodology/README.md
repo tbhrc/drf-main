@@ -6,7 +6,7 @@ This folder is the durable DRF home for David Potgieter's founder sales-methodol
 
 - [`David-Potgieter-Relationship-Led-Sales-Strategy-V1.md`](./David-Potgieter-Relationship-Led-Sales-Strategy-V1.md) — exact Markdown source recovered from FolderDesk Task 182.
 - [`David-Potgieter-Relationship-Led-Sales-Strategy-V1.docx`](./David-Potgieter-Relationship-Led-Sales-Strategy-V1.docx) — editable Word version of the same V1 methodology.
-- [`../david-virtual-meeting-classification-register.md`](../david-virtual-meeting-classification-register.md) — SharePoint transcript classification register used for evidence expansion and validation.
+- [`David-Virtual-Meeting-Classification-Register.md`](./David-Virtual-Meeting-Classification-Register.md) — SharePoint transcript classification register used for evidence expansion and validation.
 
 ## Governing research issue
 
