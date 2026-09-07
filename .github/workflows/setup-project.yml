@@ -13,7 +13,7 @@ permissions:
 jobs:
   setup:
     if: github.actor == 'tbhrc'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     env:
       GH_TOKEN: ${{ secrets.PROJECT_MANAGEMENT_TOKEN }}
       PROJECT_TITLE: DRF — Revenue Factory
