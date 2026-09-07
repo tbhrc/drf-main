@@ -4,8 +4,8 @@
 **Framework:** `skills/drf-opportunity-factory/references/business-opportunity-scoring.md` v2.0  
 **Niche layer:** `skills/drf-opportunity-factory/references/niche-scoring.md` v1.2  
 **Base portfolio recalculation:** 29 August 2026 — Issue #48  
-**Latest targeted evidence update:** 6 September 2026 — daily intelligence expansion + Vertical AI distributor niche — Issue #173  
-**Research basis:** 29 active parent-opportunity dossiers + all canonical niche dossiers, plus subsequent opportunity-specific evidence updates
+**Latest targeted evidence update:** 7 September 2026 — daily intelligence expansion — Issue #175  
+**Research basis:** 31 active parent-opportunity dossiers + all canonical niche dossiers, plus subsequent opportunity-specific evidence updates
 
 ## Scoring rule
 
@@ -19,15 +19,16 @@ DRF is expansion-first. There is no fixed opportunity-count ceiling. Deduplicati
 
 ## Executive recalculation
 
-- The top four remain unchanged: **WhatsApp + CRM**, **Revenue Recovery**, **AI Voice**, **Missed Lead**.
-- **Instant Quote / Quote-to-Cash remains #5** after drywall/gypsum/false ceilings emerged as an 87/100 Sniper niche.
+- The top five remain unchanged: **WhatsApp + CRM**, **Revenue Recovery**, **AI Voice**, **Missed Lead**, **Instant Quote / Quote-to-Cash**.
+- **AI-First Managed IT & Employee Support** is promoted as an active parent at **87/100**, MRR10, AI78, Evidence93, EMP3/93, with UAE M365-first professional-services SMEs at **86/100 / 91%** and RBS82/P1/TEST.
+- **AI Procurement Savings & Sourcing Operations** is promoted as an active parent at **87/100**, MRR9, AI85, Evidence92, EMP3/92, with UAE fit-out/MEP/specialist contractors at **86/100 / 90%** and RBS82/P1/TEST.
 - **AI Recommendation Visibility & GEO Engine remains active at 88/100** with the first Dubai business-setup niche at 86/100; its live gate is paid local transferability and bounded delivery.
 - **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor remains an active founder-core opportunity at 89/100.** Its current gap is niche/EMP/RBS/proof refresh, not parent legitimacy.
-- **Vertical AI Operating Systems & Agent Integration Packs remains 88/100 but is materially advanced:** current operator evidence now supports **EMP3 / 92%**, with **UAE building-material / industrial-supply distributor order desks** as the first **89/100 / 92%** Sniper niche, **RBS85 / P1 / TEST**.
-- **AI-Enabled Finance Operations & Bookkeeping is promoted as the 29th active parent at 86/100**, MRR10, AI Autonomy78, Evidence90, EMP3/90, with UAE service SMEs at 84/100 / 90% confidence and RBS84/P1/TEST.
-- **Autonomous AI Revenue Operations remains 87/100** as the vendor-neutral revenue-operations business. Its next gate is paid/repeatable delivery evidence and managed-operations retention.
+- **Vertical AI Operating Systems & Agent Integration Packs remains 88/100** with EMP3/92 and the UAE distributor order-desk Sniper niche at 89/92.
+- **AI-Enabled Finance Operations & Bookkeeping remains 86/100** with UAE service SMEs at 84/90 and RBS84/P1/TEST.
+- **Autonomous AI Revenue Operations remains 87/100** as the vendor-neutral revenue-operations business; paid/repeatable delivery remains the proof gate.
 - **Business Blueprints remains 82** as a platform-neutral parent opportunity; Whop is one distribution channel rather than the business itself.
-- Research Completeness remains **100% across all 29 active parent opportunities** in the framework sense. This does not mean product-market fit is proven; live CAC, retention, gross margin and outcome data remain the next confidence gate.
+- Research Completeness remains **100% across all 31 active parent opportunities** in the framework sense. This does not mean product-market fit is proven; live CAC, retention, gross margin and outcome data remain the next confidence gate.
 
 ## Portfolio summary
 
@@ -44,6 +45,8 @@ DRF is expansion-first. There is no fixed opportunity-count ceiling. Deduplicati
 | **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | **Candidate** | **89/100** | **0** | **RESTORED** | **10/10** | **85/100** | **96%** | **100%** | Pending current niche refresh | — | Founder-restored core opportunity. GoHighLevel remains the anchor because reusable snapshots, SaaS Mode, provisioning, rebilling and Marketplace distribution materially define the productisation model. | Select one vertical and prove a second unrelated paying customer can be deployed from substantially the same foundation with bounded onboarding/support and attractive recurring gross contribution. | `businesses/highlevel-vertical-saas-snapshot/CURRENT.md` |
 | **AI Recommendation Visibility & GEO Engine** | **Candidate** | **88/100** | **NEW** | **NEW** | **9/10** | **88/100** | **90%** | **100%** | Dubai company-formation / business-setup consultancies | **86/100** | Golden emerging recurring service: recommendation/citation measurement, evidence-led optimisation, fixed-instrument re-test and monitoring. No ranking guarantees. | After founder approval, run one 10-account fixed-instrument test and require 2 unrelated paid deposits at ≥AED2,500 setup + ≥AED1,500/month. | `businesses/ai-recommendation-visibility-geo-engine/CURRENT.md` |
 | **Vertical AI Operating Systems & Agent Integration Packs** | **Candidate** | **88/100** | **0** | **↑1** | **9/10** | **78/100** | **90%** | **100%** | UAE building-material / industrial-supply distributor order desks | **89/100** | EMP3 market-proven order/procurement automation is a strong atomic route: automate email/WhatsApp/PDF order capture into ERP drafts while gating material exceptions. | Replay 50 historic orders with one UAE distributor and require a paid design-partner deposit before custom integration expands. | `businesses/vertical-ai-operating-systems-agent-integration-packs/CURRENT.md` |
+| **AI-First Managed IT & Employee Support** | **Candidate** | **87/100** | **NEW** | **NEW** | **10/10** | **78/100** | **93%** | **100%** | UAE professional-services SMEs, 10–40 staff, M365-first, no internal IT | **86/100** | Mature UAE managed-IT demand plus a fast-emerging AI-first MSP pattern create a strong recurring opportunity, but security/privileged actions and human/on-site support must stay bounded. | Obtain 2 unrelated paid UAE SME commitments at the test floor and measure 30-day automated resolution, human minutes, tool cost and renewal intent. | `businesses/ai-first-managed-it-employee-support/CURRENT.md` |
+| **AI Procurement Savings & Sourcing Operations** | **Candidate** | **87/100** | **NEW** | **NEW** | **9/10** | **85/100** | **92%** | **100%** | UAE fit-out / MEP / specialist contractors with repeated project RFQs | **86/100** | Multiple paid procurement operators plus direct Dubai/GCC category proof validate recurring demand. Generic RFQ software is commoditised; the sellable wedge is measured savings + controlled sourcing operations. | Run one ≥20-event historic RFQ/procurement diagnostic and require one paid pilot at the pre-committed floor before integration expands. | `businesses/ai-procurement-savings-sourcing-operations/CURRENT.md` |
 | **Recruitment OS / Hiring Intelligence SaaS** | **Candidate** | **87/100** | **-4** | **↓2** | **10/10** | **78/100** | **88%** | **100%** | UAE/GCC boutique recruitment agencies / executive-search firms / RPOs | **81/100** | Attractive as differentiated intelligence around an existing ATS. | Sell one intelligence/evaluation module before expanding platform scope. | `businesses/recruitment-os-hiring-intelligence-saas/CURRENT.md` |
 | **Autonomous AI Revenue Operations Business-in-a-Box** | **Candidate** | **87/100** | **+6** | **↑9** | **9/10** | **85/100** | **94%** | **100%** | MEP/HVAC tender & RFQ operations *(delivery-rail evidence)* | **84/100** | Vendor-neutral parent has strong category and WTP evidence. Managed-agent services are commercially credible; open agent-marketplace liquidity and fully autonomous end-to-end business operation remain immature. | Run one high-value vendor-neutral workflow; measure fully loaded cost/success/human recovery, then prove second-client reuse and managed-operations renewal. | `businesses/grok-bot-ai-revenue-operations/CURRENT.md` + `research/autonomous-ai-revenue-operations-2026-09.md` |
 | **AI-Enabled Finance Operations & Bookkeeping** | **Candidate** | **86/100** | **NEW** | **NEW** | **10/10** | **78/100** | **90%** | **100%** | UAE service SMEs with 30–150 monthly transactions and no in-house finance team | **84/100** | UAE monthly bookkeeping demand and local AI-native operators are market proven. The viable wedge is managed finance operations with qualified-accountant review, not autonomous accounting or unregistered tax representation. | Secure 2 unrelated paid monthly clients at ≥AED1,250/month; measure onboarding, accountant-review minutes, exceptions, gross contribution and renewal. | `businesses/ai-enabled-finance-operations-bookkeeping/CURRENT.md` |
@@ -94,9 +97,9 @@ DRF is expansion-first. There is no fixed opportunity-count ceiling. Deduplicati
 | **MRR** | **MRR / Recurring Revenue Quality** | **11** |
 | **Total** |  | **100** |
 
-## Validated scores — latest targeted update 6 September 2026
+## Validated scores — latest targeted update 7 September 2026
 
-All factors are 0–10. Weighted Score uses the canonical weights above. **All 29 rows below are active opportunity scores; taxonomy normalisation does not remove a distinct commercial model.**
+All factors are 0–10. Weighted Score uses the canonical weights above. **All 31 rows below are active opportunity scores; taxonomy normalisation does not remove a distinct commercial model.**
 
 | Opportunity | MS | MG | TW | WP | AB | AM | AD | HD | SC | SR | MP | SCALE | PG | MOAT | MRR | Weighted Score |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -111,6 +114,8 @@ All factors are 0–10. Weighted Score uses the canonical weights above. **All 2
 | **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | 10 | 9 | 8 | 8 | 9 | 8 | 9 | 8 | 9 | 8 | 10 | 10 | 8 | 7 | 10 | **88.8 → 89** |
 | **Vertical AI Operating Systems & Agent Integration Packs** | 10 | 10 | 9 | 9 | 9 | 8 | 8 | 6 | 9 | 9 | 9 | 9 | 8 | 8 | 9 | **88.1 → 88** |
 | **AI Recommendation Visibility & GEO Engine** | 8 | 10 | 10 | 8 | 9 | 9 | 9 | 8 | 10 | 9 | 9 | 9 | 7 | 6 | 9 | **87.7 → 88** |
+| **AI-First Managed IT & Employee Support** | 9 | 9 | 9 | 10 | 9 | 8 | 8 | 6 | 9 | 9 | 8 | 9 | 7 | 7 | 10 | **86.7 → 87** |
+| **AI Procurement Savings & Sourcing Operations** | 9 | 9 | 9 | 9 | 9 | 8 | 9 | 8 | 9 | 8 | 9 | 9 | 7 | 7 | 9 | **86.5 → 87** |
 | **Recruitment OS / Hiring Intelligence SaaS** | 10 | 9 | 8 | 9 | 9 | 7 | 8 | 7 | 9 | 7 | 10 | 10 | 8 | 8 | 10 | **87.4 → 87** |
 | **Autonomous AI Revenue Operations Business-in-a-Box** | 10 | 10 | 10 | 9 | 10 | 9 | 8 | 7 | 9 | 9 | 8 | 8 | 7 | 5 | 9 | **87.4 → 87** |
 | **AI-Enabled Finance Operations & Bookkeeping** | 9 | 9 | 8 | 9 | 9 | 8 | 8 | 6 | 9 | 9 | 8 | 9 | 7 | 7 | 10 | **85.5 → 86** |
@@ -147,6 +152,8 @@ Evidence Confidence measures trust in the scoring inputs. Research Completeness 
 | Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor | **96%** | **100%** | Select one vertical and prove a second unrelated paying customer can be deployed from substantially the same foundation with bounded onboarding/support and attractive recurring gross contribution. |
 | AI Recommendation Visibility & GEO Engine | **90%** | **100%** | Dubai paid price acceptance, bounded human delivery, fixed-instrument outcome change and recurring renewal. |
 | Vertical AI Operating Systems & Agent Integration Packs | **90%** | **100%** | One paid UAE distributor order-desk pack with safe order-draft automation, bounded ERP/SKU exceptions and a credible second-client reuse path. |
+| AI-First Managed IT & Employee Support | **93%** | **100%** | Two unrelated paid UAE SME clients plus 30-day evidence on automated resolution, human/on-site work, security controls, gross contribution and renewal. |
+| AI Procurement Savings & Sourcing Operations | **92%** | **100%** | One ≥20-event UAE contractor historic diagnostic proving repeatable savings/admin value and one paid pilot at the commercial floor. |
 | Recruitment OS / Hiring Intelligence SaaS | **88%** | **100%** | External paid use of one intelligence module around an existing ATS. |
 | Autonomous AI Revenue Operations Business-in-a-Box | **94%** | **100%** | First paid vendor-neutral workflow, second-client reuse, fully loaded cost/success, support minutes and managed-operations renewal. |
 | AI-Enabled Finance Operations & Bookkeeping | **90%** | **100%** | Two unrelated paid UAE SME clients with bounded accountant-review/exception work, governed finance-data handling and positive recurring contribution. |
@@ -183,6 +190,8 @@ Evidence Confidence measures trust in the scoring inputs. Research Completeness 
 | Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor | 9 | 8 | 9 | 8 | **85** |
 | AI Recommendation Visibility & GEO Engine | 9 | 9 | 9 | 8 | **88** |
 | Vertical AI Operating Systems & Agent Integration Packs | 9 | 8 | 8 | 6 | **78** |
+| AI-First Managed IT & Employee Support | 9 | 8 | 8 | 6 | **78** |
+| AI Procurement Savings & Sourcing Operations | 9 | 8 | 9 | 8 | **85** |
 | Recruitment OS / Hiring Intelligence SaaS | 9 | 7 | 8 | 7 | **78** |
 | Autonomous AI Revenue Operations Business-in-a-Box | 10 | 9 | 8 | 7 | **85** |
 | AI-Enabled Finance Operations & Bookkeeping | 9 | 8 | 8 | 6 | **78** |
@@ -221,27 +230,31 @@ HVAC/AC remains the clearest first beachhead, followed by specialist MEP, aesthe
 
 The business is **not** generic SEO, reputation software or product-feed agentic commerce: it owns the repeatable buyer-intent prompt/citation measurement → evidence-led optimisation → fixed-instrument re-test → monthly monitoring outcome for service brands.
 
-The opportunity is **88/100**, with an initial **86/100 Dubai business-setup consultancy** niche and RBS81/P1/TEST downstream. Its live gate is paid local transferability and bounded delivery, not whether AI-visibility tools exist.
-
 ### 3. GoHighLevel is a restored core opportunity and an implementation rail
 
 The active parent is **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor**. GoHighLevel also remains usable inside other outcome-first businesses, but that reuse does not erase the independently testable snapshot/SaaS productisation model.
 
-The commercial thesis is specific: package one vertical operating system into reusable snapshots/SaaS Mode, automate provisioning, capture recurring SaaS/managed-service/rebilling economics, and prove the same foundation can be deployed to a second unrelated paying customer with bounded support.
-
 ### 4. Vertical AI OS now has a Sniper commercial route
 
-The previously broad Vertical AI Operating Systems parent now has a **89/100 UAE distributor order-desk niche** backed by current global and UAE operator evidence. Sell one bounded email/WhatsApp/PDF-to-ERP order-draft workflow, keep the ERP as system of record, and prove second-client reuse. The opportunity score stays 88 because custom integration risk remains the parent-level constraint.
+The previously broad Vertical AI Operating Systems parent now has a **89/100 UAE distributor order-desk niche** backed by current global and UAE operator evidence. Sell one bounded email/WhatsApp/PDF-to-ERP order-draft workflow, keep the ERP as system of record, and prove second-client reuse.
 
 ### 5. AI-Enabled Finance Operations adds a recurring managed-finance lane
 
-The new **86/100** parent captures a distinct UAE SME outcome: clean monthly books, close and compliance-readiness with AI-assisted processing and qualified-accountant review. The category is market-proven, but human-review/cleanup economics and regulated tax-agent boundaries prevent an autonomous-accounting thesis.
+The **86/100** parent captures a distinct UAE SME outcome: clean monthly books, close and compliance-readiness with AI-assisted processing and qualified-accountant review.
 
-### 6. Autonomous AI Revenue Operations remains a top structural opportunity
+### 6. AI-first managed IT adds a recurring employee-operations lane
+
+The new **87/100** parent captures existing UAE managed-IT spend with an AI-first labour model. The product is an outsourced IT department with audited, bounded automation and explicit human/partner escalation; it is not an autonomous-admin thesis.
+
+### 7. AI Procurement Savings adds a buyer-side savings lane
+
+The new **87/100** parent sells recurring sourcing/admin savings to purchasing organisations. It is separate from the distributor sales-order niche because the payer, workflow and revenue mechanism differ. Free RFQ tools force the product up the value stack toward measured savings, governance and managed execution.
+
+### 8. Autonomous AI Revenue Operations remains a top structural opportunity
 
 The vendor-neutral parent is **87** because agents are a real paid operating layer, but it still does not outrank proven outcome-specific revenue businesses; its next gate is one repeatable paid low-support workflow.
 
-### 7. Business Blueprints remains a distribution multiplier
+### 9. Business Blueprints remains a distribution multiplier
 
 ```text
 prove a DRF business system
@@ -251,15 +264,15 @@ prove a DRF business system
 → attach implementation/managed service where valuable
 ```
 
-### 8. Platform-neutral classification has a platform-led exception
+### 10. Platform-neutral classification has a platform-led exception
 
-Platforms and vendors are normally delivery/distribution mechanisms, not proof of customer demand. But when a platform materially defines reusable packaging, recurring economics, automated provisioning, rebilling, marketplace/distribution or buyer proposition, it may remain part of a first-class opportunity identity. Taxonomy must improve comparison without deleting an independently testable commercial model.
+Platforms and vendors are normally delivery/distribution mechanisms, not proof of customer demand. But when a platform materially defines reusable packaging, recurring economics, automated provisioning, rebilling, marketplace/distribution or buyer proposition, it may remain part of a first-class opportunity identity.
 
-### 9. Talent Bridge should run a parallel cash-and-data lane
+### 11. Talent Bridge should run a parallel cash-and-data lane
 
 Assessment-as-a-Service and Partner-Delivered Recruitment remain useful because their execution speed and existing assets can generate cash and evidence while slower platform/data products remain in research.
 
-### 10. Commodity software remains penalised
+### 12. Commodity software remains penalised
 
 Generic websites, job boards, marketplaces, prompts and monitoring dashboards are easy to build or rent. That does not solve buyer acquisition, implementation, recurring decision value or moat.
 
@@ -273,16 +286,7 @@ For UAE service businesses, the default remains WhatsApp-first unless exact nich
 
 ## Capital and rescore gate
 
-No score in this file is product-market-fit proof. Further material score movements should come primarily from:
-
-- cash actually collected;
-- CAC/payback or a repeatable warm-channel acquisition path;
-- onboarding and support minutes;
-- cost per successful production outcome;
-- measurable customer ROI;
-- gross margin;
-- MRR retention, churn and expansion;
-- automation/agent exception and recovery rates.
+No score in this file is product-market-fit proof. Further material score movements should come primarily from cash collected, CAC/payback, support/delivery minutes, cost per successful outcome, measurable customer ROI, gross margin, retention/expansion and exception/recovery rates.
 
 For **Autonomous AI Revenue Operations**, do not raise the score further from additional desk research alone. Require paid/repeatable delivery evidence and managed-operations retention.
 
@@ -290,7 +294,11 @@ For **AI Recommendation Visibility & GEO Engine**, do not raise the score from m
 
 For **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor**, do not re-litigate whether the founder-origin opportunity exists. Refresh niche, pricing, RBS and proof by testing repeatable deployment and recurring economics.
 
-For **AI-Enabled Finance Operations & Bookkeeping**, do not raise the score from more accounting-software launches. Require paid UAE clients, bounded accountant-review/cleanup effort, governed financial-data handling and recurring contribution.
+For **AI-Enabled Finance Operations & Bookkeeping**, require paid UAE clients, bounded accountant-review/cleanup effort, governed financial-data handling and recurring contribution.
+
+For **AI-First Managed IT & Employee Support**, require paid UAE clients, safe privileged-action controls, bounded human/on-site work and recurring gross contribution.
+
+For **AI Procurement Savings & Sourcing Operations**, require a real historic procurement diagnostic and paid pilot showing savings/admin value without proprietary supplier-scale dependence or manual-work creep.
 
 For **Vertical AI Operating Systems**, the distributor-order niche advances the parent to TEST but does not justify a parent score increase until the same architecture is reused on a second paying customer with bounded exceptions.
 
@@ -305,6 +313,8 @@ For **Vertical AI Operating Systems**, the distributor-order niche advances the 
 - `https://github.com/tbhrc/research/blob/main/research/technology/ai-visibility-geo.md`
 - `https://github.com/tbhrc/research/blob/main/research/business-models/ai-enabled-finance-operations-uae-smes.md`
 - `https://github.com/tbhrc/research/blob/main/research/business-models/ai-order-procurement-operations-wholesale-distributors.md`
+- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-first-managed-it-uae-smes.md`
+- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-procurement-savings-operations-uae.md`
 - all current `businesses/*/RESEARCH.md` / `CURRENT.md` opportunity dossiers
 
 ## Table format rule
