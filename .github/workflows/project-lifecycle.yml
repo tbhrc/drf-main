@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   transition:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     steps:
       - uses: actions/checkout@v4
 
