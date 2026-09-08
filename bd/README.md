@@ -1,116 +1,126 @@
 # DRF Business Development
 
-DRF owns **pre-sale business-development strategy, campaigns, experiments and aggregate proof** for iMPLEMENTAi.ae and DRF commercial opportunities until a prospect is genuinely acquired / Won.
+DRF owns **pre-sale business-development strategy, campaigns, experiments and aggregate proof** for iMPLEMENTAi.ae and DRF opportunities until a prospect is genuinely acquired/Won.
 
-The reusable operating method is canonical in `tbhrc/skills`, not duplicated here.
+Reusable operating method is canonical in `tbhrc/skills`. Relationship/contact canon is central in private [`tbhrc/crm`](https://github.com/tbhrc/crm).
 
 ## Start here
 
 - Canonical Skill: [`tbhrc/skills/drf-business-development`](https://github.com/tbhrc/skills/tree/main/drf-business-development)
-- Skill provenance: [`tbhrc/skills#158`](https://github.com/tbhrc/skills/issues/158)
 - Governing BD programme: [`DRF #150`](https://github.com/tbhrc/drf-main/issues/150)
-- Current live-CRM selection/proof: [`DRF #157`](https://github.com/tbhrc/drf-main/issues/157)
-- Future GHL platform operator: [`tbhrc/skills#159`](https://github.com/tbhrc/skills/issues/159)
+- Historical vendor-CRM selection/proof: [`DRF #157`](https://github.com/tbhrc/drf-main/issues/157)
+- Central GitHub CRM programme: [`tbhrc/tb#36`](https://github.com/tbhrc/tb/issues/36)
+- CRM reconciliation: [`tbhrc/crm#4`](https://github.com/tbhrc/crm/issues/4)
+- HubSpot sync adapter: [`tbhrc/crm#2`](https://github.com/tbhrc/crm/issues/2)
 
 Domain artifacts:
-
-- [`GHL-BD-CONFIG.md`](GHL-BD-CONFIG.md) — target GHL configuration if/when GHL is selected and proven; it is not a same-day prerequisite for BD.
-- [`Pilot 001 — UAE Multi-Location Restaurants — Digital Visibility`](campaigns/001-uae-multi-location-restaurants-visibility.md) — bounded first campaign, draft/not activated.
+- [`GHL-BD-CONFIG.md`](GHL-BD-CONFIG.md) — target GHL configuration if/when selected/proven; not a same-day prerequisite.
+- [`Pilot 001 — UAE Multi-Location Restaurants — Digital Visibility`](campaigns/001-uae-multi-location-restaurants-visibility.md) — bounded campaign proof.
 
 ## Ownership model
 
 | Surface | Owns |
 |---|---|
-| **DRF / GitHub** | Offer/niche/ICP, campaign decisions, experiments, blockers, system work and aggregate commercial proof |
-| **Selected live CRM** | Ordinary companies, contacts, opportunities, stages, communication/activity, next actions, appointments and Won/Lost/Nurture state |
-| **`tbhrc/skills`** | Reusable HOW: BD orchestration plus specialist research/report/outreach methods and the currently verified CRM capability/operator |
-| **OneDrive** | Private evidence and human/prospect/client-facing files where required |
-| **AI Ops** | Won/acquired iMPLEMENTAi clients and post-sale client operating truth |
+| **DRF / GitHub** | Offer/niche/ICP, campaign decisions, experiments, blockers, opportunity underwriting and aggregate proof |
+| **`tbhrc/crm`** | Canonical person/organisation identity, verified endpoints, tenant relationship context, durable relationship intelligence and external CRM linkage for covered records |
+| **HubSpot/GHL / selected vendor CRM** | Human work surface and vendor-specific mutable transaction state (deal stage/activity/task/appointment/etc.) until mapped/synchronised into central CRM |
+| **`tbhrc/skills`** | Reusable HOW |
+| **OneDrive/SharePoint** | Human/client-facing files/mirrors where useful; not a mandatory private-data silo |
+| **AI Ops** | Won/acquired iMPLEMENTAi client operating canon after handoff |
 
-Use **one live CRM only**. The current decision is governed by #157: prove the inherited GHL route; if it is insufficient today, HubSpot may be the interim live CRM until a documented migration trigger is met. Never dual-maintain competing CRM truth.
+## Core rule
+
+**Vendor-independent agent work must remain possible when HubSpot/GHL is unavailable.**
+
+For covered records:
+
+```text
+tbhrc/crm identity + relationship context
+→ DRF qualification / campaign logic
+→ vendor CRM transaction only when needed
+→ persist external IDs/material relationship updates back to GitHub CRM
+```
+
+Do not run HubSpot and GHL as competing live transaction systems. That is different from the approved **GitHub CRM canon + vendor adapter** model.
 
 ## Core flow
 
 ```text
 DRF offer / niche
-→ targeted company discovery
+→ target discovery
 → qualify / prioritise
-→ selected live CRM opportunity
-→ company/public research
-→ useful value-upfront asset when justified
-→ governed outreach
-→ follow-up
-→ meeting / discovery
-→ recommendation / proposal
+→ resolve/create canonical company/contact relationship in tbhrc/crm
+→ public/company research
+→ value-upfront asset when useful
+→ selected vendor CRM deal/opportunity transaction when required
+→ outreach / follow-up
+→ meeting / proposal
 → Won
 → AI Ops handoff
 ```
 
-## No shadow CRM in GitHub
+## No vendor silo / no competing manual CRM
 
-Do not create one Issue, Markdown file or row per ordinary lead just to mirror the live CRM.
+Superseded rule: `do not create a shadow CRM in GitHub`.
 
-GitHub should record:
-- why a campaign exists;
-- the ICP and offer being tested;
-- material decisions/exceptions;
-- system changes;
-- aggregate results and learning.
+Current rule:
+- `tbhrc/crm` **is** the approved agent-native CRM canon.
+- Do not create another lead/contact database inside DRF or per-campaign Issues.
+- Do not manually dual-maintain two independent pipeline systems.
+- Store/reconcile company/contact identity, verified endpoints, durable relationship context and vendor object IDs in central CRM.
+- Let the selected vendor CRM own only unmigrated vendor-specific mutable fields until the adapter covers them.
 
-The selected live CRM records the commercial relationship and next action.
+If the vendor CRM is unavailable, research/qualification/preparation/relationship recall continue from GitHub. Only the genuinely vendor-specific transaction waits for reconciliation.
 
-## GHL target state
+## Vendor CRM selection
 
-GHL remains the preferred longer-term tool-operations target when its actual account/location authority, email route and required agent/API/MCP actions are proven. [`GHL-BD-CONFIG.md`](GHL-BD-CONFIG.md) records that target configuration without claiming it is currently operational.
+DRF #157 historically selected/proved the immediate live vendor route (HubSpot interim when GHL was not justified). That decision remains relevant for **vendor transaction mechanics**, but it no longer makes HubSpot the sole owner of company/contact relationship truth.
 
-Do not buy/upgrade GHL or delay current BD merely because the target architecture prefers it. Paid upgrades remain founder-authorised external spend, and current CRM selection is owned by #157.
+GHL may replace HubSpot later when capability/value justify the switch. The central CRM model prevents that migration from becoming a business-data migration emergency.
 
 ## Value-upfront acquisition
 
-For suitable targets, use the canonical specialist Skills rather than creating another workflow here:
+For suitable targets:
 
 ```text
 public evidence
-→ meaningful current findings
-→ clickable sources
-→ 3+ useful Quick Wins where justified
+→ meaningful findings
+→ useful Quick Wins
 → short client-facing value asset
 → commercial conversation
 ```
 
-The recommended first controlled proof is [`Pilot 001`](campaigns/001-uae-multi-location-restaurants-visibility.md): 10 UAE multi-location restaurant targets, one clear audit-led offer, founder-reviewed first outbound batch, and full reply → meeting → Won measurement.
+Use canonical iMPLEMENTAi research/report Skills. Never fabricate metrics, rankings, ROI or gaps.
 
 ## Won boundary
 
-A researched/contacted/meeting-stage prospect stays in DRF + the selected live CRM.
-
-Only after genuine acquisition / Won and explicit engagement authority:
+A prospect remains in DRF + central CRM + the selected vendor adapter until genuinely Won.
 
 ```text
-live CRM Won opportunity
-→ verify company/contact/stakeholders + accepted scope
-→ preserve decision-useful discovery/commitments/shared-artifact references
+Won transaction
+→ verify canonical company/contact/stakeholders in tbhrc/crm
+→ preserve accepted scope + decision-useful discovery/commitments
 → create/update AI Ops client canon
-→ invoke the authorised iMPLEMENTAi onboarding lifecycle
+→ invoke onboarding/delivery lifecycle
 ```
 
-The selected CRM remains commercial history unless later canon explicitly changes that ownership.
+Vendor CRM retains commercial transaction history where useful; it is not the sole relationship memory.
 
 ## Proof loop
 
-At campaign level derive from the selected live CRM wherever possible:
-- targets and qualified accounts;
-- value assets prepared/sent;
-- replies / positive engagement;
+Derive vendor-specific transactional metrics from the selected CRM and retain durable campaign learning/aggregate proof in DRF:
+- targets/qualified accounts;
+- replies/engagement;
 - meetings;
-- qualified opportunities;
 - proposals;
 - Won/Lost/Nurture;
-- setup revenue + MRR;
-- cycle time and conversion by offer/niche/source.
+- revenue/MRR;
+- cycle time/conversion by offer/niche/source.
 
-Feed validated business/niche evidence back into DRF and reusable operating lessons back into the owning canonical Skill.
+Do not create a second per-lead metric database in DRF.
 
 ## Durable-guidance rule
 
-Keep only DRF-specific configuration, campaigns, decisions and proof here. When a recommendation becomes reusable operating method, promote it into the correct canonical Skill rather than allowing `bd/` to become a competing SOP/workflow library.
+Keep DRF-specific campaigns, decisions, underwriting and proof here. Promote reusable method to Skills, relationship/contact truth to `tbhrc/crm`, and Won-client truth to AI Ops.
+
+Privacy/storage anti-silo doctrine: [`tbhrc/skills#450`](https://github.com/tbhrc/skills/issues/450).
