@@ -122,19 +122,19 @@ If GHL is selected, derive campaign metrics from GHL wherever possible:
 
 DRF receives aggregate campaign proof, not a manually duplicated per-lead CRM table.
 
-## 8. No-shadow-CRM and migration rule
+## 8. Canonical GitHub CRM + single vendor transaction owner
 
-If #157 selects HubSpot as interim live CRM, keep HubSpot authoritative until a later explicit decision promotes GHL. Do not dual-maintain.
+`tbhrc/crm` is the canonical agent-facing identity/relationship layer for covered records. If #157 selects HubSpot as the interim **vendor transaction CRM**, keep HubSpot as the single vendor-side owner for fields not yet covered by deterministic sync until a later explicit decision promotes GHL. This is not a prohibition on the approved GitHub CRM canon; it is a prohibition on manually maintaining HubSpot and GHL as competing transaction systems.
 
-When migration is justified:
+When vendor migration is justified:
 
 1. define source/destination ownership;
 2. pause competing writes;
 3. deduplicate company/contact/opportunity records;
 4. migrate only decision-useful current state/history;
 5. verify the destination;
-6. declare the new single live CRM owner;
-7. stop dual maintenance.
+6. declare the new single vendor transaction owner and update its adapter mapping in `tbhrc/crm`;
+7. stop competing vendor writes while preserving canonical GitHub identity/relationship records and external IDs.
 
 ## 9. First controlled proof
 
