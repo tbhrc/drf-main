@@ -2,16 +2,16 @@
 
 DRF owns **pre-sale business-development strategy, campaigns, experiments and aggregate proof** for iMPLEMENTAi.ae and DRF opportunities until a prospect is genuinely acquired/Won.
 
-Reusable operating method is canonical in `tbhrc/skills`. Relationship/contact canon is central in private [`tbhrc/crm`](https://github.com/tbhrc/crm).
+Reusable operating method is canonical in `tbhrc/skills`. Neutral/shared people, organisation, endpoint, provenance and cross-domain relationship identity is central in private [`tbhrc/db`](https://github.com/tbhrc/db).
 
 ## Start here
 
 - Canonical Skill: [`tbhrc/skills/drf-business-development`](https://github.com/tbhrc/skills/tree/main/drf-business-development)
 - Governing BD programme: [`DRF #150`](https://github.com/tbhrc/drf-main/issues/150)
 - Historical vendor-CRM selection/proof: [`DRF #157`](https://github.com/tbhrc/drf-main/issues/157)
-- Central GitHub CRM programme: [`tbhrc/tb#36`](https://github.com/tbhrc/tb/issues/36)
-- CRM reconciliation: [`tbhrc/crm#4`](https://github.com/tbhrc/crm/issues/4)
-- HubSpot sync adapter: [`tbhrc/crm#2`](https://github.com/tbhrc/crm/issues/2)
+- Universal DB programme: [`tbhrc/tb#36`](https://github.com/tbhrc/tb/issues/36)
+- DB reconciliation: [`tbhrc/db#4`](https://github.com/tbhrc/db/issues/4)
+- HubSpot CRM adapter: [`tbhrc/db#2`](https://github.com/tbhrc/db/issues/2)
 
 Domain artifacts:
 - [`GHL-BD-CONFIG.md`](GHL-BD-CONFIG.md) — target GHL configuration if/when selected/proven; not a same-day prerequisite.
@@ -22,8 +22,9 @@ Domain artifacts:
 | Surface | Owns |
 |---|---|
 | **DRF / GitHub** | Offer/niche/ICP, campaign decisions, experiments, blockers, opportunity underwriting and aggregate proof |
-| **`tbhrc/crm`** | Canonical person/organisation identity, verified endpoints, tenant relationship context, durable relationship intelligence and external CRM linkage for covered records |
-| **HubSpot/GHL / selected vendor CRM** | Human work surface and vendor-specific mutable transaction state (deal stage/activity/task/appointment/etc.) until mapped/synchronised into central CRM |
+| **`tbhrc/db`** | Neutral/shared person/organisation identity, verified endpoints, provenance, tenant/context keys, cross-domain relationships and covered commercial linkage/external CRM references |
+| **Sales** | Pursuit, outreach/follow-up execution, meetings, proposals/terms coordination, negotiation and closing action |
+| **HubSpot/GHL / selected vendor CRM** | Human work surface and vendor-specific mutable commercial transaction state (deal stage/activity/task/appointment/etc.) until mapped/reconciled into DB commercial view |
 | **`tbhrc/skills`** | Reusable HOW |
 | **OneDrive/SharePoint** | Human/client-facing files/mirrors where useful; not a mandatory private-data silo |
 | **AI Ops** | Won/acquired iMPLEMENTAi client operating canon after handoff |
@@ -35,13 +36,14 @@ Domain artifacts:
 For covered records:
 
 ```text
-tbhrc/crm identity + relationship context
+tbhrc/db neutral identity + commercial relationship linkage
 → DRF qualification / campaign logic
+→ Sales pursuit when account-level pursuit begins
 → vendor CRM transaction only when needed
-→ persist external IDs/material relationship updates back to GitHub CRM
+→ persist external IDs/material shared-data updates back to DB
 ```
 
-Do not run HubSpot and GHL as competing live transaction systems. That is different from the approved **GitHub CRM canon + vendor adapter** model.
+Do not run HubSpot and GHL as competing live transaction systems. Do not create a DRF CRM database, identity registry or sync control plane. CRM is the commercial domain/view over DB, not another identity root.
 
 ## Core flow
 
@@ -49,9 +51,10 @@ Do not run HubSpot and GHL as competing live transaction systems. That is differ
 DRF offer / niche
 → target discovery
 → qualify / prioritise
-→ resolve/create canonical company/contact relationship in tbhrc/crm
+→ resolve/reuse canonical company/contact identity in tbhrc/db
 → public/company research
 → value-upfront asset when useful
+→ hand pursuit/conversion action to Sales where applicable
 → selected vendor CRM deal/opportunity transaction when required
 → outreach / follow-up
 → meeting / proposal
@@ -64,19 +67,20 @@ DRF offer / niche
 Superseded rule: `do not create a shadow CRM in GitHub`.
 
 Current rule:
-- `tbhrc/crm` **is** the approved agent-native CRM canon.
-- Do not create another lead/contact database inside DRF or per-campaign Issues.
+- `tbhrc/db` is the universal shared data foundation.
+- CRM is the **commercial domain/view** over DB plus vendor adapters where needed.
+- Do not create another lead/contact identity database inside DRF or per-campaign Issues.
 - Do not manually dual-maintain two independent pipeline systems.
-- Store/reconcile company/contact identity, verified endpoints, durable relationship context and vendor object IDs in central CRM.
+- Store/reconcile neutral company/contact identity, verified endpoints, provenance, tenant relationship context and vendor object IDs in DB where covered.
 - Let the selected vendor CRM own only unmigrated vendor-specific mutable fields until the adapter covers them.
 
-If the vendor CRM is unavailable, research/qualification/preparation/relationship recall continue from GitHub. Only the genuinely vendor-specific transaction waits for reconciliation.
+If the vendor CRM is unavailable, research/qualification/preparation/relationship recall continue from GitHub/DB. Only the genuinely vendor-specific transaction waits for reconciliation.
 
 ## Vendor CRM selection
 
-DRF #157 historically selected/proved the immediate live vendor route (HubSpot interim when GHL was not justified). That decision remains relevant for **vendor transaction mechanics**, but it no longer makes HubSpot the sole owner of company/contact relationship truth.
+DRF #157 historically selected/proved the immediate live vendor route (HubSpot interim when GHL was not justified). That decision remains relevant for **vendor transaction mechanics**, but it does not make HubSpot the sole owner of company/contact identity or the universal database.
 
-GHL may replace HubSpot later when capability/value justify the switch. The central CRM model prevents that migration from becoming a business-data migration emergency.
+GHL may replace HubSpot later when capability/value justify the switch. The DB + commercial-view model prevents that migration from becoming a business-data migration emergency.
 
 ## Value-upfront acquisition
 
@@ -94,17 +98,17 @@ Use canonical iMPLEMENTAi research/report Skills. Never fabricate metrics, ranki
 
 ## Won boundary
 
-A prospect remains in DRF + central CRM + the selected vendor adapter until genuinely Won.
+A prospect remains in DRF + Sales + DB commercial view + selected vendor adapter until genuinely Won according to the owning workflow.
 
 ```text
 Won transaction
-→ verify canonical company/contact/stakeholders in tbhrc/crm
+→ verify canonical company/contact/stakeholders in tbhrc/db
 → preserve accepted scope + decision-useful discovery/commitments
 → create/update AI Ops client canon
 → invoke onboarding/delivery lifecycle
 ```
 
-Vendor CRM retains commercial transaction history where useful; it is not the sole relationship memory.
+Vendor CRM retains commercial transaction history where useful; it is not the sole relationship memory or identity root.
 
 ## Proof loop
 
@@ -117,10 +121,10 @@ Derive vendor-specific transactional metrics from the selected CRM and retain du
 - revenue/MRR;
 - cycle time/conversion by offer/niche/source.
 
-Do not create a second per-lead metric database in DRF.
+Do not create a second per-lead metric or identity database in DRF.
 
 ## Durable-guidance rule
 
-Keep DRF-specific campaigns, decisions, underwriting and proof here. Promote reusable method to Skills, relationship/contact truth to `tbhrc/crm`, and Won-client truth to AI Ops.
+Keep DRF-specific campaigns, decisions, underwriting and proof here. Promote reusable method to Skills, neutral/shared identity + commercial linkage to `tbhrc/db`, Sales pursuit/closing to `tbhrc/sales`, and Won-client truth to AI Ops.
 
-Privacy/storage anti-silo doctrine: [`tbhrc/skills#450`](https://github.com/tbhrc/skills/issues/450).
+Universal DB controller: [`tbhrc/db#5`](https://github.com/tbhrc/db/issues/5). Organisation-wide convergence: [`tbhrc/ai-engine#202`](https://github.com/tbhrc/ai-engine/issues/202). Privacy/storage anti-silo doctrine: [`tbhrc/skills#450`](https://github.com/tbhrc/skills/issues/450).
