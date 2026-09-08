@@ -1,5 +1,10 @@
 # AGENTS.md — Repository Router
 
+<!-- ROUTER_SHARED_LIFECYCLE_START -->
+**Issue Gate:** Every substantive or durable work unit requires a master controlling Issue; create new substantive Issues from the canonical [Durable Work template](https://github.com/tbhrc/skills/blob/main/.github/ISSUE_TEMPLATE/durable-work.md).
+
+**Close Gate:** Before closing any Issue, read and reconcile its current body; every required `## Checklist` and `## Acceptance Criteria` item must be `[x]`, otherwise keep the Issue open.
+<!-- ROUTER_SHARED_LIFECYCLE_END -->
 Read this first. Follow only the link needed for the task; do not preload documentation.
 
 **Core Fast Links:** [Workflow](https://github.com/tbhrc/skills/tree/main/github-agent-workflow) · [LIB1 Librarian](https://github.com/tbhrc/skills/tree/main/ecosystem-librarian) · [Document Strategy](https://github.com/tbhrc/skills/blob/main/governance/strategies/strategy-cold-start-context-reduction.md) · [Founder Output](https://github.com/tbhrc/skills/blob/main/github-agent-workflow/SKILL.md#founder-facing-output) · [Anti-Friction Security](https://github.com/tbhrc/skills/blob/main/governance/policies/real-boundary-security-and-friction.md) · [Sniper](https://github.com/tbhrc/skills/blob/main/human-ai-operations-map/references/ai-sniper-entry-map.md) · [Multi-Agent Orchestrator](https://github.com/tbhrc/skills/tree/main/github-multi-agent-orchestrator)
