@@ -122,19 +122,23 @@ If GHL is selected, derive campaign metrics from GHL wherever possible:
 
 DRF receives aggregate campaign proof, not a manually duplicated per-lead CRM table.
 
-## 8. Canonical GitHub CRM + single vendor transaction owner
+## 8. Universal DB + single vendor transaction owner
 
-`tbhrc/crm` is the canonical agent-facing identity/relationship layer for covered records. If #157 selects HubSpot as the interim **vendor transaction CRM**, keep HubSpot as the single vendor-side owner for fields not yet covered by deterministic sync until a later explicit decision promotes GHL. This is not a prohibition on the approved GitHub CRM canon; it is a prohibition on manually maintaining HubSpot and GHL as competing transaction systems.
+[`tbhrc/db`](https://github.com/tbhrc/db) is the universal neutral/shared data foundation for covered person/organisation identity, endpoints, provenance and cross-domain/commercial linkage. CRM is the commercial domain/view over DB; GHL or HubSpot may be the selected human/vendor transaction surface.
+
+If #157 selects HubSpot as the interim **vendor transaction CRM**, keep HubSpot as the single vendor-side owner for fields not yet covered by deterministic sync until a later explicit decision promotes GHL. This is not a prohibition on DB-held shared identity/linkage; it is a prohibition on manually maintaining HubSpot and GHL as competing transaction systems.
 
 When vendor migration is justified:
 
 1. define source/destination ownership;
 2. pause competing writes;
-3. deduplicate company/contact/opportunity records;
-4. migrate only decision-useful current state/history;
+3. deduplicate company/contact/opportunity records against DB neutral identity;
+4. migrate only decision-useful current vendor-specific state/history;
 5. verify the destination;
-6. declare the new single vendor transaction owner and update its adapter mapping in `tbhrc/crm`;
-7. stop competing vendor writes while preserving canonical GitHub identity/relationship records and external IDs.
+6. declare the new single vendor transaction owner and update its adapter mapping in `tbhrc/db`;
+7. stop competing vendor writes while preserving DB neutral identity/linkage records, provenance and external IDs.
+
+Before any consequential external vendor mutation, resolve the explicit tenant plus provider/account/location context; never infer the target from a default or last-used session.
 
 ## 9. First controlled proof
 
@@ -151,3 +155,5 @@ Once the **selected live CRM** and approved email route are operational:
 ```
 
 Pilot 001 is defined separately at [`campaigns/001-uae-multi-location-restaurants-visibility.md`](campaigns/001-uae-multi-location-restaurants-visibility.md).
+
+Universal DB reconciliation: [`tbhrc/db#4`](https://github.com/tbhrc/db/issues/4).
