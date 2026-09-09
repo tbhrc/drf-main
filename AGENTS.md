@@ -1,5 +1,7 @@
 # AGENTS.md — Repository Router
 
+**Structural class:** G — programme / revenue / research owner. See [org pre-structure](https://github.com/tbhrc/org/blob/main/700-architecture/organisation-pre-structure.md).
+
 <!-- ROUTER_SHARED_LIFECYCLE_START -->
 **Issue Gate:** Every substantive or durable work unit requires a master controlling Issue; create new substantive Issues from the canonical [Durable Work template](https://github.com/tbhrc/skills/blob/main/.github/ISSUE_TEMPLATE/durable-work.md).
 
