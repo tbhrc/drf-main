@@ -3,6 +3,8 @@
 <!-- ROUTER_SHARED_LIFECYCLE_START -->
 **Issue Gate:** Every substantive or durable work unit requires a master controlling Issue; create new substantive Issues from the canonical [Durable Work template](https://github.com/tbhrc/skills/blob/main/.github/ISSUE_TEMPLATE/durable-work.md).
 
+**FolderDesk Lifecycle:** For substantive ideas/work originating in conversation, follow the canonical [Lifecycle of FolderDesk](https://github.com/tbhrc/skills/blob/main/docs/lifecycle/folderdesk-lifecycle.md): search/reuse first; call `GitHub.create_issue` exactly once only for the intended durable work item; capture each material change once as a consolidated Issue comment; reconcile the Issue body before `auditor`, execution handoff and closure; lifecycle labels/state are evidence/navigation, never runtime permission.
+
 **Close Gate:** Before closing any Issue, read and reconcile its current body; every required `## Checklist` and `## Acceptance Criteria` item must be `[x]`, otherwise keep the Issue open.
 <!-- ROUTER_SHARED_LIFECYCLE_END -->
 Read this first. Follow only the link needed for the task; do not preload documentation.
