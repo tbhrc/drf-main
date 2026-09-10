@@ -1,9 +1,9 @@
 # AGENTS.md — Repository Router
 
-**Structural class:** G — programme / revenue / research owner. See [org pre-structure](https://github.com/tbhrc/org/blob/main/700-architecture/organisation-pre-structure.md).
+**Structural class:** G — programme / revenue / research owner. See [TBHRC GitHub Repository Pre-Structure](https://github.com/tbhrc/org/blob/main/700-architecture/organisation-pre-structure.md).
 
 <!-- ROUTER_SHARED_LIFECYCLE_START -->
-**Issue Gate:** Every substantive or durable work unit requires a master controlling Issue; create new substantive Issues from the canonical [Durable Work template](https://github.com/tbhrc/skills/blob/main/.github/ISSUE_TEMPLATE/durable-work.md).
+**Issue Gate:** Every substantive or durable work unit requires a master controlling Issue; create new substantive Issues from the canonical [Durable Work template](https://github.com/tbhrc/.github/blob/main/.github/ISSUE_TEMPLATE/durable-work.md).
 
 **FolderDesk Lifecycle / Lever:** For substantive ideas/work originating in conversation, use the canonical [Lifecycle Lever](https://github.com/tbhrc/skills/blob/main/github-agent-workflow/scripts/lifecycle_set.py) owned by the [Lifecycle of FolderDesk](https://github.com/tbhrc/skills/blob/main/docs/lifecycle/folderdesk-lifecycle.md): search/reuse first; create exactly once at the truthful initial `idea` or `discussion` stage with priority in the same mutation; later choose the semantic stage through the Lever/native adapter rather than reconstructing label mechanics; lifecycle metadata is evidence/navigation, never runtime permission.
 
