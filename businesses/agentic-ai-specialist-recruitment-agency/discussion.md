@@ -1,7 +1,8 @@
 # Agentic AI Specialist Recruitment Agency — Discussion
 
-**Status:** Founder-origin discussion; serious build candidate; not yet formally scored or promoted as a new DRF parent  
+**Status:** Founder-origin discussion; promoted DRF parent; migration source for the future dedicated Agentic AI Engineer Marketplace operating home  
 **Date captured:** 10 September 2026  
+**Last founder/SEO update:** 10 September 2026  
 **Governing Issue:** [#184 — Agentic AI specialist recruitment agency — vetted engineer marketplace + live AI certification](https://github.com/tbhrc/drf-main/issues/184)
 
 ## Founder thesis
@@ -520,3 +521,348 @@ Talent Bridge recruitment
 ```
 
 No claim is made yet that Talent Bridge is already the number-one agentic AI recruiter, that employer demand is proven, or that the certification predicts job performance. Those are the outcomes the DRF proof sequence must establish.
+
+---
+
+# Founder update — brand, comprehensive assessment and SEO category capture
+
+**Captured:** 10 September 2026  
+**Purpose:** preserve David's latest founder thinking and current SEO evidence before this opportunity is migrated into its own dedicated operating/Skill home.
+
+## Brand architecture now preferred
+
+Do **not** create a separate consumer brand or separate domain for the marketplace at this stage.
+
+Keep **iMPLEMENTAi.ae** as the master brand because the infrastructure already exists: website, domain, LinkedIn/Facebook/social presence, AI authority and an existing Experts concept with expert self-submission. Re-use and simplify that estate rather than creating another integration and marketing burden.
+
+The SEO-facing category/service name should be:
+
+> **Agentic AI Engineer Marketplace**
+
+Recommended brand expression:
+
+> **iMPLEMENTAi Agentic AI Engineer Marketplace**
+
+The exact descriptive category should be more prominent than an invented brand name because the strategic opportunity is to own the search/category language early.
+
+### iMPLEMENTAi focus
+
+The intended simple iMPLEMENTAi proposition is increasingly:
+
+1. **FolderDesk — product**: the primary agent/context operating product.
+2. **Agentic AI talent + assessment — service**: assess engineers/candidates, maintain a highly selective verified Agentic AI engineer marketplace, and provide employers with a complete evidence-backed evaluation rather than a CV shortlist.
+
+The existing website **Experts** concept should be repurposed rather than discarded. Candidate/expert self-submission is already conceptually aligned with the supply-acquisition model.
+
+## Comprehensive assessment is a core differentiator
+
+The marketplace must not be positioned as only a technical coding/agent assessment.
+
+The employer should receive a **comprehensive Talent Bridge evaluation report** that combines:
+
+- live Agentic AI technical proof-of-work;
+- personality profile / relevant behavioural interpretation;
+- communication assessment;
+- problem-solving assessment;
+- time-management assessment;
+- technical score and evidence;
+- recruiter/consultant judgement and risk flags;
+- complete candidate evaluation report suitable for hiring decisions.
+
+This is strategically important because Talent Bridge's differentiation over many technical marketplaces is the combination of **deep recruitment assessment experience + broad candidate evaluation + Agentic AI technical verification**.
+
+The marketplace promise is therefore not simply:
+
+> “We tested their code.”
+
+It is closer to:
+
+> **“We evaluated the engineer comprehensively — how they think, communicate, solve, manage work and actually execute Agentic AI engineering — and we can show you the evidence.”**
+
+## Selectivity / passing-rate principle
+
+David's founder experience from approximately ten years of recruitment and use of Talent Bridge general assessment is that very few candidates clear a genuinely demanding full evaluation. He expects the future Agentic AI Engineer Marketplace to be similarly selective, plausibly around a few percent and in any event not inflated merely to grow inventory.
+
+Operating principle:
+
+```text
+quality standard first
+→ assess honestly
+→ publish the actual observed pass rate
+→ never adjust the standard merely to manufacture a target percentage
+```
+
+A **~3% pass rate is an expected/aspirational selectivity signal, not yet a measured marketplace actual**. The initial operating expectation is that no more than roughly 10% should pass if the standard is genuinely demanding, but the eventual published percentage must come from real assessment cohorts and a stable scoring standard.
+
+This distinction protects credibility. The scarcity is valuable only if it is genuine.
+
+---
+
+# SEO research — “Agentic AI Engineer Marketplace”
+
+**Research date:** 10 September 2026  
+**Geographic priority:** UAE/Dubai first, global category capture second.
+
+## Executive SEO finding
+
+The phrase **“Agentic AI Engineer Marketplace”** currently represents a genuine **SERP/category white-space opportunity**, but not a proven high-volume keyword.
+
+Current search research did **not** surface a clear exact-category leader that is simultaneously:
+
+- a human talent marketplace;
+- dedicated specifically to Agentic AI Engineers;
+- built around independently verified candidates; and
+- offering employer access to those humans as the core product.
+
+The results are fragmented among:
+
+- Agentic AI **agent/app stores** and marketplaces where the thing being sold is an AI agent rather than a human engineer;
+- Agentic AI engineering **job boards**;
+- “hire Agentic AI engineer” staffing/recruitment landing pages;
+- broad AI/ML talent marketplaces;
+- internal talent marketplaces that use agentic AI as the matching technology.
+
+That distinction is the SEO opportunity.
+
+## Exact / adjacent SERP competitors
+
+### 1. Agentic AI Engineering Jobs — closest exact-role vertical, but a job board
+
+Source: https://agentic-engineering-jobs.com/employers
+
+Current page presents itself as **“Hire Agentic AI Engineers”** and reports:
+
+- 251 active listings;
+- 195 companies hiring;
+- US$150 for a 60-day job listing;
+- US$249/month billed annually or US$299 monthly for an always-hiring membership;
+- Google for Jobs structured data plus public API/MCP distribution.
+
+This validates a dedicated Agentic AI engineering hiring category, but the product is an **employer job-posting board**, not a curated marketplace of deeply assessed human engineers.
+
+### 2. Next Idea Tech — pre-vetted Agentic AI engineers, but staffing/nearshore supply rather than a category marketplace
+
+Source: https://www.nextideatech.com/hire/agentic-ai-engineer
+
+Current page targets **“Hire Agentic AI Engineers”**, shows named human profiles and claims the **top 4%** of Agentic AI candidates pass its production vetting. It promises matching in 72 hours and focuses on LATAM/US-time-zone engineering supply.
+
+This is important competitive evidence: selective, production-focused Agentic AI vetting is already commercially credible. It is not an open/public dedicated Agentic AI Engineer Marketplace with Talent Bridge-style comprehensive assessment evidence.
+
+The external “top 4%” claim supports the *marketability of selectivity*, but must not be used as evidence that Talent Bridge itself has a 3–4% pass rate. Talent Bridge must publish its own observed rate.
+
+### 3. Recruo — specialist Agentic AI recruitment landing page
+
+Source: https://recruo.com/hire-agentic-ai-developers
+
+Recruo currently sells a 3–5 candidate vetted Agentic AI developer shortlist in five business days, with a typical 15% success fee. Its message explicitly distinguishes engineers who have shipped production agents from candidates with demos/blog posts.
+
+This validates the specialist recruitment/search proposition, but again is not a visible human marketplace category owner.
+
+### 4. Clapwork — broad AI Talent Marketplace
+
+Source: https://www.clapwork.com/
+
+Clapwork explicitly calls itself **“The AI Talent Marketplace”** and offers verified AI engineers, ML specialists and LLM experts. It is the closest broad-marketplace analogue found, but it is not positioned around the exact **Agentic AI Engineer Marketplace** category.
+
+### 5. HiBOSS — “agentic AI recruitment marketplace” means the recruitment mechanism, not the engineer category
+
+Source: https://www.linkedin.com/company/hiboss
+
+HiBOSS describes itself as an **agentic AI recruitment marketplace**, but “agentic AI” describes the recruiting/matching system. It does not establish ownership of a marketplace specifically for human **Agentic AI Engineers**.
+
+### 6. Search results for “agentic AI talent marketplace” are semantically confused
+
+A current SHRM result about Gloat uses “agentic AI” to describe how an **internal talent marketplace** operates. The phrase therefore currently mixes two meanings:
+
+1. a marketplace **powered by agentic AI**; and
+2. a marketplace **for people who engineer agentic AI**.
+
+Source: https://www.shrm.org/in/topics-tools/news/technology/agentic-ai-internal-talent-marketplace
+
+The iMPLEMENTAi page should remove that ambiguity explicitly with language such as **“Human Agentic AI Engineers — independently assessed and available to hire.”**
+
+## Demand-side SERP evidence
+
+Even though the exact marketplace phrase is nascent, the underlying role demand is visible.
+
+Current UAE search results include:
+
+- Indeed: **75+ Agentic AI Engineer jobs in Dubai** on 10 September 2026 — https://ae.indeed.com/q-agentic-ai-engineer-l-dubai-jobs.html
+- Naukrigulf: **77 Agentic AI Engineer jobs in Dubai** — https://www.naukrigulf.com/agentic-ai-engineer-jobs-in-dubai
+- GulfTalent: current Dubai Agentic AI Engineer role — https://www.gulftalent.com/uae/jobs/agentic-ai-engineer-604205
+- current/recent LinkedIn Agentic AI Engineer roles in Dubai across multiple employers/recruiters.
+
+This does not equal keyword-search volume, but it supports the commercial reality of the role category and gives the marketplace a live content/job-demand ecosystem to build around.
+
+## Ahrefs keyword evidence
+
+A bounded Ahrefs Keywords Explorer check was run through the governed Tool/API Gateway on 10 September 2026.
+
+### UAE
+
+| Keyword | Ahrefs result |
+|---|---|
+| `agentic ai engineer marketplace` | No returned keyword row / no measurable dataset signal |
+| `hire agentic ai engineers` | No returned keyword row / no measurable dataset signal |
+| `agentic ai engineer` | **10 estimated monthly searches** |
+| `agentic ai engineer jobs` | **0 estimated monthly searches** |
+
+For the two returned UAE rows, Ahrefs did not return a Keyword Difficulty value.
+
+### United States spot-check
+
+| Keyword | Ahrefs result |
+|---|---|
+| `agentic ai engineer marketplace` | No returned keyword row / no measurable dataset signal |
+| `hire agentic ai engineers` | No returned keyword row / no measurable dataset signal |
+
+**Interpretation:** the exact phrase is currently too early/low-volume to justify a claim that it is a proven search-volume opportunity. The opportunity is **low-occupancy category capture** while the broader role itself grows.
+
+## SEO decision
+
+Use the exact phrase as the **service/category name and primary landing-page target**, but do not rely on it as the only keyword.
+
+Recommended naming:
+
+> **Agentic AI Engineer Marketplace**
+
+Recommended page title pattern:
+
+> **Agentic AI Engineer Marketplace | Vetted AI Engineers | iMPLEMENTAi.ae**
+
+Recommended H1:
+
+> **Agentic AI Engineer Marketplace**
+
+Recommended supporting proposition:
+
+> **Hire human Agentic AI engineers who have passed comprehensive Talent Bridge assessment and live technical proof-of-work.**
+
+## Recommended SEO architecture
+
+Keep `iMPLEMENTAi.ae` as the authority domain and build the category cluster there rather than starting another domain.
+
+Suggested structure:
+
+```text
+/agentic-ai-engineer-marketplace/
+    → primary exact-category landing page / verified human marketplace
+
+/hire-agentic-ai-engineers/
+    → employer commercial-intent page
+
+/agentic-ai-engineers-dubai/
+    → Dubai/UAE local landing page
+
+/agentic-ai-engineer-assessment/
+    → employer “assess your shortlist” service + methodology
+
+/agentic-ai-engineer-jobs-dubai/
+    → candidate/search-demand content if genuine live jobs exist
+
+/experts/
+    → retain/rework as the broader expert/discovery or candidate-application hub
+```
+
+Do not create thin duplicate pages. Each page must own a distinct search intent and link into the marketplace.
+
+### Existing Experts page
+
+The existing iMPLEMENTAi Experts page and self-submission concept should be **re-used**, not abandoned. Two viable implementations are:
+
+1. retain `/experts/` as the broad hub and make `/agentic-ai-engineer-marketplace/` the exact SEO/category landing page; or
+2. if the current Experts page has negligible indexed authority, repurpose it and use a clean redirect/canonical structure around the new exact category.
+
+Current search did not surface a clearly indexed iMPLEMENTAi Experts result, which reduces migration risk, but the website itself should be checked directly before URL changes are made.
+
+## Keyword cluster to own
+
+Primary category:
+
+- agentic AI engineer marketplace
+
+Commercial/employer intent:
+
+- hire agentic AI engineers
+- hire an agentic AI engineer
+- vetted agentic AI engineers
+- pre-vetted agentic AI engineers
+- agentic AI recruitment agency
+- agentic AI recruiter Dubai
+- agentic AI engineers Dubai
+- Forward Deployed AI Engineer recruitment / hiring
+
+Candidate intent:
+
+- agentic AI engineer jobs
+- agentic AI engineer jobs Dubai
+- become a verified agentic AI engineer
+- agentic AI engineer assessment
+- agentic AI engineer certification / verification
+
+Content/supporting authority:
+
+- what is an Agentic AI Engineer
+- how to hire Agentic AI Engineers
+- Agentic AI Engineer salary Dubai / UAE
+- Agentic AI Engineer skills
+- Agentic AI Engineer interview / assessment
+- Agentic AI Engineer vs AI Engineer / LLM Engineer
+- Agentic AI Engineer portfolio / GitHub examples
+
+## SEO moat is not only the keyword
+
+The stronger long-term advantage is the ability to create **first-party, evidence-rich marketplace pages** that generic SEO competitors cannot easily fabricate:
+
+- real assessed engineer profiles;
+- verified skill evidence;
+- live proof-of-work methodology;
+- actual pass-rate data once statistically credible;
+- salary/demand data from placements and searches;
+- anonymised aggregate assessment insights;
+- employer case evidence;
+- role-specific competency standards;
+- current Agentic AI engineering jobs and hiring signals where legitimate.
+
+This creates an evidence/content flywheel around the exact category rather than a single keyword landing page.
+
+## Naming conclusion
+
+**Working category/service name: `Agentic AI Engineer Marketplace`.**
+
+**Master brand: `iMPLEMENTAi.ae`.**
+
+Recommended public expression:
+
+> **iMPLEMENTAi Agentic AI Engineer Marketplace**  
+> *Human Agentic AI engineers. Independently assessed. Evidence-backed. Available to hire.*
+
+This is preferable to creating a new abstract marketplace brand now because:
+
+- it preserves existing iMPLEMENTAi authority and social infrastructure;
+- it uses the exact category language while SERP ownership is weak;
+- it avoids another domain/brand/integration burden;
+- it supports both marketplace and “assess your own shortlist” services;
+- it can later expand into adjacent AI engineering roles without changing the parent iMPLEMENTAi brand.
+
+## Future dedicated operating home
+
+When migrated from this DRF discussion into `tbhrc/skills`, the current working folder/Skill identity should be:
+
+`agentic-ai-engineer-marketplace`
+
+That future Skill should own the reusable operating HOW for:
+
+- marketplace positioning and brand rules;
+- candidate intake;
+- comprehensive assessment stack;
+- Agentic AI technical proof-of-work standard;
+- pass/listing rules;
+- evidence-pack requirements;
+- candidate profile publishing rules;
+- employer search/shortlist workflow;
+- SEO/category content architecture;
+- marketplace quality/freshness controls;
+- measurement of pass rate, employer conversion and placement outcomes.
+
+Until that migration is executed, this `discussion.md` remains the preserved source of the founder thesis and SEO/category decision.
