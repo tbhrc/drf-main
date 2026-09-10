@@ -866,3 +866,90 @@ That future Skill should own the reusable operating HOW for:
 - measurement of pass rate, employer conversion and placement outcomes.
 
 Until that migration is executed, this `discussion.md` remains the preserved source of the founder thesis and SEO/category decision.
+---
+
+# Founder SEO update — second category keyword
+
+**Captured:** 10 September 2026
+
+## Second primary SEO target
+
+Add the following as the second primary category keyword alongside `Agentic AI Engineer Marketplace`:
+
+> **Agentic AI Talent Marketplace**
+
+This phrase should be treated as a broader category-capture term for employers searching for human Agentic AI talent, while `Agentic AI Engineer Marketplace` remains the sharper role-specific term.
+
+The intended semantic distinction must be explicit on-page:
+
+- **Agentic AI Engineer Marketplace** = marketplace for human engineers who build Agentic AI systems.
+- **Agentic AI Talent Marketplace** = broader marketplace for assessed human Agentic AI talent, initially engineer-led and expandable to adjacent high-value Agentic AI roles.
+- **Not an AI agent store** = the marketplace contains people/talent, not downloadable autonomous agents, agent templates or software agents.
+
+Recommended SEO/category hierarchy:
+
+```text
+Primary role/category target:
+Agentic AI Engineer Marketplace
+
+Second primary category target:
+Agentic AI Talent Marketplace
+
+Supporting commercial intent:
+hire Agentic AI engineers
+vetted Agentic AI engineers
+pre-vetted Agentic AI engineers
+Agentic AI recruitment agency
+Agentic AI recruiter Dubai
+Agentic AI engineers Dubai
+```
+
+## Current SERP competition finding
+
+Founder observation from current Google search: the first page shown for `Agentic AI Talent Marketplace` did not contain an obvious human Agentic AI talent marketplace; results were dominated by other meanings of "agentic AI marketplace", especially internal talent-marketplace technology and marketplaces/stores for AI agents.
+
+Independent search confirms that the category remains **very weakly occupied**, but it is not accurate to record literal zero global competition. At least one relevant human marketplace exists:
+
+- **AgentPros / Applied Agentics** — `https://agentpros.appliedagentics.ai/` and `https://appliedagentics.ai/` — describes itself as a curated AI talent marketplace connecting companies with vetted developers, QA professionals and product leaders who build and ship with Agentic AI. It claims a top-5% candidate acceptance rate and is the closest direct category analogue found.
+- **Second Talent** — `https://www.secondtalent.com/` — broader pre-vetted AI-native engineering/talent platform with Agentic AI specialists among several categories; not positioned as the exact Agentic AI Talent Marketplace category.
+- **Clapwork** — `https://www.clapwork.com/` — broader AI talent marketplace covering AI/ML talent and Agentic AI systems, again not owning the exact narrow category phrase.
+- **SHRM / Gloat coverage** — `https://www.shrm.org/in/topics-tools/news/technology/agentic-ai-internal-talent-marketplace` — uses "agentic AI talent marketplace" to describe an internal workforce-matching system powered by agents, not an external marketplace for humans who build Agentic AI systems.
+
+**SEO interpretation:** this is a category-creation opportunity with low semantic ownership, not a defensible claim of absolute zero competitors worldwide. The strategic opportunity is to become the clearest search result for the human-talent meaning before the phrase becomes crowded.
+
+## Founder category-creation thesis
+
+The naming strategy deliberately follows the same founder logic behind **iMPLEMENTAi**: choose the language the market is likely to use, establish the category early, build authority around it, and aim to own the search position before incumbents define the phrase.
+
+The operating principle is:
+
+```text
+identify emerging category language
+→ verify weak SERP ownership
+→ publish the clearest exact-intent destination
+→ build real first-party evidence and authority around it
+→ interlink role, hiring, assessment and marketplace pages
+→ compound rankings as category demand grows
+```
+
+The objective is not to manufacture an SEO phrase. It is to align the page name with a real commercial category that already exists in practice — employers need people who can build Agentic AI systems — while search ownership is still immature.
+
+## Recommended public positioning
+
+Master brand:
+
+> **iMPLEMENTAi.ae**
+
+Role-specific category:
+
+> **Agentic AI Engineer Marketplace**
+
+Broader category descriptor / secondary SEO target:
+
+> **Agentic AI Talent Marketplace**
+
+Recommended explanatory line:
+
+> **A human Agentic AI talent marketplace for independently assessed engineers and specialists — not an AI agent store.**
+
+The broader `Agentic AI Talent Marketplace` term should support future expansion beyond engineers without diluting the initial engineer-led wedge.
