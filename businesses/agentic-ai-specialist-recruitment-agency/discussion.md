@@ -1108,3 +1108,117 @@ The full profile can then expand into:
 **Best multi-product architecture reference: Braintrust.**
 
 The intended iMPLEMENTAi product should ultimately look **more evidence-rich than Toptal, more assessment-led than A.Team, more selective than Arc, and much narrower/more specialist than Braintrust.**
+
+---
+
+# Founder website decision — Toptal benchmark locked
+
+**Captured:** 10 September 2026
+
+## Approved benchmark
+
+Founder reviewed the previously suggested marketplace examples and rejected all except **Toptal** as materially below the professional standard he would approve.
+
+**Decision:** Toptal is now the primary and only approved website benchmark for the initial iMPLEMENTAi Agentic AI talent marketplace design direction.
+
+Reference: `https://www.toptal.com/`
+
+## Navigation pattern to emulate
+
+Toptal currently separates **Hire Talent** from **Consulting & Services** in its primary navigation. Founder likes this structure and wants iMPLEMENTAi to use the same simple strategic separation, with FolderDesk given equal prominence as the product pillar.
+
+Proposed iMPLEMENTAi top-level architecture:
+
+```text
+iMPLEMENTAi
+|-- Consulting & Services
+|-- Talent
+|-- FolderDesk
+```
+
+Interpretation:
+
+- **Consulting & Services** -> iMPLEMENTAi advisory, implementation and relevant enterprise services.
+- **Talent** -> Agentic AI Engineer Marketplace / Agentic AI Talent Marketplace, employer hiring flow, candidate assessment and verified talent profiles.
+- **FolderDesk** -> distinct flagship product destination.
+
+The website should feel like one premium company with three very clear entry points, not several disconnected mini-brands.
+
+## Public identity / profile visibility
+
+Toptal publicly displays real full names for many experts. This makes the marketplace feel credible and human, but creates a real commercial leakage risk because an employer can potentially identify and approach the individual directly through LinkedIn or other public channels.
+
+For iMPLEMENTAi this should be a deliberate product decision rather than an accidental consequence.
+
+Working principle:
+
+- credibility strongly benefits from genuine names, faces, verified evidence and professional history;
+- public direct contact details should still not be exposed;
+- employer value must be strong enough that the marketplace is worth using even when a professional is discoverable elsewhere;
+- the commercial moat cannot depend only on hiding candidate identity;
+- the defensible value is the **assessment evidence, verified standard, matching, recruiter judgement, contracting/process support and trusted shortlist quality**.
+
+This is strategically preferable to building a weak moat around anonymous profiles alone.
+
+## Toptal monetisation correction
+
+Do **not** record an assumption that Toptal charges consultants to be listed or tested.
+
+Current first-party Toptal evidence states:
+
+- talent members set their own rates;
+- Toptal says it does **not take a cut** from the hourly rate set by talent;
+- Toptal says it generates revenue through direct contracts with clients;
+- Toptal currently states a **US$79 monthly platform subscription** applies to clients who proceed with talent matching.
+
+Sources:
+
+- `https://www.toptal.com/freelance-jobs/faq`
+- `https://www.toptal.com/faq`
+- `https://www.toptal.com/freelance-jobs/developers/data-engineers`
+
+Therefore Toptal actually supports a useful early operating principle for iMPLEMENTAi: **candidate quality can remain selective without charging candidates simply for access to the marketplace.**
+
+## iMPLEMENTAi candidate monetisation decision — current state
+
+Founder does **not** currently plan to charge Agentic AI engineers merely to be assessed, accepted or listed. Candidate-side monetisation is not locked out permanently, but it is not the current objective.
+
+Current priority:
+
+> **Build the gap in the market and provide genuine value first. Let the monetisation model emerge from proven employer demand and marketplace usage rather than corrupting candidate selection with a pay-to-list incentive.**
+
+Initial monetisation should therefore remain employer-led unless later evidence supports a candidate-paid product that does not compromise assessment independence.
+
+Potential employer-side economics remain:
+
+- recruitment / placement fees;
+- contract/freelance margin or managed engagement economics;
+- employer marketplace/subscription access where proven;
+- employer-paid assessment of their own candidates/shortlists;
+- enterprise consulting/services around AI hiring and capability.
+
+Candidate-paid certification, training, coaching or revalidation may be considered later only if commercial separation prevents payment from influencing marketplace acceptance.
+
+## Strategic differentiation from Toptal
+
+The goal is **not** to clone Toptal broadly.
+
+Toptal is the professional website and marketplace UX benchmark. iMPLEMENTAi should be materially narrower and deeper:
+
+```text
+Toptal
+-> broad top-tier freelance talent network
+
+IMPLEMENTAi
+-> category-owned Agentic AI human talent marketplace
+-> live Agentic AI proof-of-work
+-> comprehensive Talent Bridge evaluation
+-> technical + communication + problem-solving + time-management evidence
+-> selective verified profiles
+-> specialist recruiter judgement
+-> Dubai/UAE beachhead with global talent reach
+```
+
+The central product principle remains:
+
+> **We are not building a large directory. We are building the trusted place to find humans who have actually proved they can engineer Agentic AI systems.**
