@@ -953,3 +953,158 @@ Recommended explanatory line:
 > **A human Agentic AI talent marketplace for independently assessed engineers and specialists — not an AI agent store.**
 
 The broader `Agentic AI Talent Marketplace` term should support future expansion beyond engineers without diluting the initial engineer-led wedge.
+
+---
+
+# Website reference benchmarks — human talent marketplace UX
+
+**Captured:** 10 September 2026
+
+Founder provided MaidFinder.ae as the closest available structural example for the desired website idea: a browsable human-profile marketplace where each person has an individual profile and employers can review structured information before making contact. The exact MaidFinder page could not be reliably fetched in the research runtime, so it is preserved as founder-provided inspiration rather than independently analysed UX evidence.
+
+Reference supplied by founder:
+
+- `https://maidfinder.ae/maid/maidprofile/FilipinoMaids-NewBorn-InDubaiNorthernEmirates/138043`
+
+The stronger benchmarks below are closer to the intended premium, technically vetted human-talent model.
+
+## 1. Toptal — strongest catalogue/profile reference
+
+Sources:
+
+- `https://www.toptal.com/developers`
+- `https://www.toptal.com/developers/software`
+- `https://www.toptal.com/developers/all`
+
+Why it matters:
+
+- immediately communicates selectivity with a top-percent positioning;
+- presents talent as verified experts rather than raw CVs;
+- uses browsable role/skill/category landing pages that are also highly SEO-compatible;
+- candidate cards show name, role, geography/timezone, concise narrative, skills and prior-company proof;
+- strong employer CTA is kept close to the candidate catalogue;
+- category pages such as software developers and integration developers combine SEO copy with real profiles.
+
+**Use for iMPLEMENTAi:** borrow the public directory structure, category-specific landing pages, compact expert cards and strong trust/selectivity hierarchy. Improve on it by exposing a much deeper evidence-backed assessment layer.
+
+## 2. A.Team — strongest premium curation / trust positioning reference
+
+Source:
+
+- `https://www.a.team/hire-tech-talent`
+
+Current model:
+
+- premium pre-vetted engineering/AI/product talent;
+- curated shortlists rather than resume floods;
+- six-stage vetting covering technical depth, soft skills and peer review;
+- personalised fit write-ups;
+- claims fewer than 2% of applicants are accepted;
+- employer proposition is centred on outcomes and senior builders rather than commodity freelancers.
+
+**Use for iMPLEMENTAi:** benchmark tone, scarcity, premium positioning and the employer promise. The page demonstrates how rigorous vetting, communication quality and a low acceptance rate can be made central to the commercial proposition without making the site feel like a testing platform.
+
+## 3. Arc — strongest employer marketplace flow reference
+
+Sources:
+
+- `https://arc.dev/`
+- `https://arc.dev/hire-developers`
+- `https://arc.dev/talent`
+
+Current model:
+
+- vetted human talent ready to interview;
+- clear split between employer and candidate journeys;
+- simple employer flow: describe need -> receive vetted profiles -> interview/hire;
+- communication and technical vetting are prominent;
+- talent pages cover many searchable specialties;
+- recruiter/human support remains visible alongside the technology.
+
+**Use for iMPLEMENTAi:** borrow the simplicity of the hiring journey, filters/specialties concept and dual employer/candidate entry points. Keep Talent Bridge recruiter support explicit instead of making the experience look purely self-service.
+
+## 4. Braintrust — strongest broader marketplace/product architecture reference
+
+Source:
+
+- `https://www.usebraintrust.com/`
+
+Current model:
+
+- separates Talent Marketplace, screening and broader hiring automation into connected products;
+- large vetted professional network;
+- AI-assisted matching while keeping the product fundamentally about human talent;
+- enterprise trust proof and recognisable client logos are prominent.
+
+**Use for iMPLEMENTAi:** useful as an architecture benchmark for showing that marketplace access and employer assessment can live under one umbrella. Do not copy its scale-led positioning; iMPLEMENTAi should lead with selectivity and evidence quality instead.
+
+## Recommended design synthesis for iMPLEMENTAi
+
+Do not copy a single marketplace. Combine the strongest elements:
+
+```text
+Toptal
+-> public expert catalogue + SEO category pages + expert cards
+
+A.Team
+-> premium scarcity + rigorous vetting + curated quality narrative
+
+Arc
+-> simple employer journey + candidate journey + recruiter-assisted conversion
+
+Braintrust
+-> marketplace + assessment as connected products under one brand
+
+Talent Bridge / iMPLEMENTAi differentiation
+-> comprehensive evaluation report + live Agentic AI proof-of-work + communication + problem-solving + time management + behavioural/personality assessment + recruiter judgement
+```
+
+## Proposed marketplace page/card anatomy
+
+A first public card should be much richer than an ordinary job-board profile but remain scannable:
+
+```text
+Photo / public identity
+Verified Agentic AI Engineer badge
+Overall assessment band / score
+Role + seniority
+Location / timezone
+Availability
+Top verified Agentic AI competencies
+Years / relevant experience
+Short evidence-backed summary
+Communication rating
+Problem-solving rating
+Time-management rating
+Technical proof-of-work rating
+Selected project / GitHub evidence
+Assessment freshness / date
+CTA: View Full Evaluation
+CTA: Request Interview / Introduction
+```
+
+The full profile can then expand into:
+
+- executive candidate summary;
+- complete Talent Bridge evaluation report;
+- technical competency breakdown;
+- proof-of-work evidence and artefacts;
+- communication/problem-solving/time-management findings;
+- personality/behavioural assessment only where job-relevant, valid, consented and appropriately framed;
+- recruiter commentary and hiring-risk notes;
+- work history and selected achievements;
+- GitHub/portfolio evidence where authorised;
+- availability, location and engagement preferences;
+- employer introduction/request workflow.
+
+## Current reference judgement
+
+**Best single visual/product reference to review first: Toptal.**
+
+**Best premium positioning reference: A.Team.**
+
+**Best simple marketplace/hiring journey reference: Arc.**
+
+**Best multi-product architecture reference: Braintrust.**
+
+The intended iMPLEMENTAi product should ultimately look **more evidence-rich than Toptal, more assessment-led than A.Team, more selective than Arc, and much narrower/more specialist than Braintrust.**
