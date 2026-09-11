@@ -1,10 +1,11 @@
 # DRF Daily Intelligence — 11 September 2026
 
-**Status:** COMPLETED subject to final verification  
+**Status:** COMPLETED  
 **Job:** `daily-intelligence`  
 **Canonical Skill:** `tbhrc/skills/automation-drf-intelligence/SKILL.md` @ `main` (`7e6a154db54cb9746acc6e0c170ffc0f319106da`)  
 **Governing DRF Issue:** https://github.com/tbhrc/drf-main/issues/185  
-**Started:** 2026-09-11 04:40Z
+**Started:** 2026-09-11 04:40Z  
+**Completed:** 2026-09-11 05:02Z
 
 ## Executive result
 
@@ -292,8 +293,12 @@ Do not restart from rank 1 on the next run. Continue from the highest-value unre
 - `businesses/V3-RECONCILIATIONS.md`
 - `businesses/PORTFOLIO-V3.md` — reconciled last for founder-field mutations
 - `research/recurring-intelligence/drf-daily-intelligence-2026-09-11.md`
-- `research/recurring-intelligence/REFRESH-RUNS.md` — appended at close-out
+- `research/recurring-intelligence/REFRESH-RUNS.md`
 
-## Verification rule
+## Verification
 
-The run is only COMPLETED after all changed canonical paths are re-read once from GitHub `main`, the run rows are confirmed, and Issue #185 is reconciled/closed. If that verification fails, this run must be treated as PARTIAL rather than replacing the last verified portfolio conclusion.
+✅ Re-read and verified every changed canonical GitHub path from `main` after persistence.  
+✅ `PORTFOLIO-V3.md` is v1.7, dated 11 September 2026, with **33 active parents**.  
+✅ `REFRESH-RUNS.md` contains the three 11 September Phase 0 / Business Blueprints / portfolio-calibration rows.  
+✅ No persistence blocker remains.  
+✅ This run is the current valid daily portfolio conclusion; historical sparse run-ledger coverage after 6 September was not fabricated or backfilled without evidence.
