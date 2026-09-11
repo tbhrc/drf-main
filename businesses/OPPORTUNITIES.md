@@ -4,8 +4,8 @@
 **Framework:** `skills/drf-opportunity-factory/references/business-opportunity-scoring.md` v2.0  
 **Niche layer:** `skills/drf-opportunity-factory/references/niche-scoring.md` v1.2  
 **Base portfolio recalculation:** 29 August 2026 — Issue #48  
-**Latest targeted evidence update:** 10 September 2026 — Agentic AI specialist recruitment underwriting — Issue #184  
-**Research basis:** 32 active parent-opportunity dossiers + all canonical niche dossiers, plus subsequent opportunity-specific evidence updates
+**Latest targeted evidence update:** 11 September 2026 — daily intelligence conversation-quality promotion + GoHighLevel completion — Issue #185  
+**Research basis:** 33 active parent-opportunity dossiers + all canonical niche dossiers, plus subsequent opportunity-specific evidence updates
 
 ## Scoring rule
 
@@ -13,53 +13,50 @@ The **Opportunity Score** answers which business/outcome vehicle is structurally
 
 Per the canonical framework, **niche scores are not added to or averaged into the 100-point Opportunity Score**. Completed niche research may correct underlying opportunity factors when it reveals stronger or weaker willingness to pay, marketability, delivery economics, speed to revenue, competition, moat or fulfilment friction.
 
-This prevents double-counting while still allowing detailed evidence to change the parent opportunity ranking.
-
 DRF is expansion-first. There is no fixed opportunity-count ceiling. Deduplication removes exact commercial duplicates; shared platforms, vendors, capabilities or overlapping outcomes are not sufficient grounds to contract the portfolio.
 
 ## Executive recalculation
 
 - The top five remain unchanged: **WhatsApp + CRM**, **Revenue Recovery**, **AI Voice**, **Missed Lead**, **Instant Quote / Quote-to-Cash**.
-- **Agentic AI Specialist Recruitment Agency** is promoted as a founder-origin active parent at **90/100**, MRR8, AI80, Evidence94, EMP4/94, with UAE/GCC AI delivery teams hiring production Agentic AI / Forward Deployed AI Engineers at **91/100 / 89%** and RBS86/P1/TEST.
-- **AI-First Managed IT & Employee Support** is promoted as an active parent at **87/100**, MRR10, AI78, Evidence93, EMP3/93, with UAE M365-first professional-services SMEs at **86/100 / 91%** and RBS82/P1/TEST.
-- **AI Procurement Savings & Sourcing Operations** is promoted as an active parent at **87/100**, MRR9, AI85, Evidence92, EMP3/92, with UAE fit-out/MEP/specialist contractors at **86/100 / 90%** and RBS82/P1/TEST.
-- **AI Recommendation Visibility & GEO Engine remains active at 88/100** with the first Dubai business-setup niche at 86/100; its live gate is paid local transferability and bounded delivery.
-- **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor remains an active founder-core opportunity at 89/100.** Its current gap is niche/EMP/RBS/proof refresh, not parent legitimacy.
-- **Vertical AI Operating Systems & Agent Integration Packs remains 88/100** with EMP3/92 and the UAE distributor order-desk Sniper niche at 89/92.
-- **AI-Enabled Finance Operations & Bookkeeping remains 86/100** with UAE service SMEs at 84/90 and RBS84/P1/TEST.
-- **Autonomous AI Revenue Operations remains 87/100** as the vendor-neutral revenue-operations business; paid/repeatable delivery remains the proof gate.
-- **Business Blueprints remains 82** as a platform-neutral parent opportunity; Whop is one distribution channel rather than the business itself.
-- Research Completeness remains **100% across all 32 active parent opportunities** in the framework sense. This does not mean product-market fit is proven; live CAC, retention, gross margin and outcome data remain the next confidence gate.
+- **Agentic AI Specialist Recruitment Agency** remains a founder-origin active parent at **90/100**, with the current 10-candidate live proof-of-work cohort as its next proof.
+- **AI Conversation Quality & Revenue Intelligence** is promoted as the 33rd active parent at **88/100**, MRR10, AI88, Evidence92, EMP3/93, with Dubai real-estate brokerages/developer sales teams at **88/100 / 86%** and RBS83/P1/TEST.
+- **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor remains 89/100** but is materially completed: EMP **Pending → EMP3/95**, best niche **Pending → UAE HVAC/AC service contractors 88/89**, RBS **Pending → 84**, Proof **Pending → P1**, Stage **RESEARCH → TEST**, with a defined AED2,500–5,000 setup + AED1,250–2,500/month forward-test range.
+- **AI-First Managed IT & Employee Support** and **AI Procurement Savings & Sourcing Operations** remain 87/100 TEST parents from #175.
+- **Vertical AI Operating Systems & Agent Integration Packs** remains 88/100 with EMP3/92 and UAE distributor order desks at 89/92.
+- **AI-Enabled Finance Operations & Bookkeeping** remains 86/100 with UAE service SMEs at 84/90 and RBS84/P1/TEST.
+- **Business Blueprints remains 82**; current 11 September channel verification does not change the parent state.
+- Research Completeness remains **100% across all 33 active parent opportunities** in the framework sense. This is not product-market-fit proof.
 
 ## Portfolio summary
 
 | Opportunity | Stage | Opportunity Score | Δ | Rank Δ | MRR | AI Autonomy | Evidence Confidence | Research Completeness | Best validated niche | Niche Score | Current read | Next action | Canonical detail |
 |---|---|---:|---|---|---:|---:|---:|---:|---|---:|---|---|---|
-| **WhatsApp + CRM Revenue Core** | **Candidate** | **95/100** | **0** | **—** | **10/10** | **95/100** | **97%** | **100%** | HVAC/AC service contractors | **92/100** | Still the strongest foundation. Multiple v3 Sniper niches validate the parent thesis while capable ERP/DMS/PMS systems should not be replaced unnecessarily. | Run one HVAC design partner; measure onboarding, adoption, support, lead ownership and module expansion. | `businesses/whatsapp-crm-revenue-core/RESEARCH.md` |
+| **WhatsApp + CRM Revenue Core** | **Candidate** | **95/100** | **0** | **—** | **10/10** | **95/100** | **97%** | **100%** | HVAC/AC service contractors | **92/100** | Still the strongest foundation; capable incumbent ERP/DMS/PMS systems should not be replaced unnecessarily. | Run one HVAC design partner; measure onboarding, adoption, support, lead ownership and module expansion. | `businesses/whatsapp-crm-revenue-core/RESEARCH.md` |
 | **Revenue Recovery & Reactivation Engine** | **Candidate** | **94/100** | **0** | **—** | **10/10** | **93/100** | **96%** | **100%** | HVAC maintenance contractors | **91/100** | Elite measurable cash-recovery outcome that can ride existing systems. | Run one HVAC stale-quote/AMC recovery campaign and measure recovered contribution after all costs. | `businesses/revenue-recovery-reactivation-engine/RESEARCH.md` |
 | **AI Voice Receptionist & Booking Agent** | **Candidate** | **94/100** | **0** | **—** | **10/10** | **90/100** | **97%** | **100%** | Emergency HVAC/AC repair | **91/100** | Elite where urgent inbound demand exists; telephony quality and escalation remain live gates. | Pilot after-hours/overflow for one HVAC contractor. | `businesses/ai-voice-receptionist-booking-agent/RESEARCH.md` |
 | **Missed Lead & Appointment Conversion Engine** | **Candidate** | **93/100** | **0** | **—** | **10/10** | **95/100** | **96%** | **100%** | Dubai aesthetic clinics | **88/100** | Strong measurable overlay on existing acquisition and CRM/PMS/DMS. | Pilot one aesthetic clinic or car-rental operator with baseline response/contact/booking data. | `businesses/missed-lead-appointment-conversion-engine/RESEARCH.md` |
 | **Instant Quote Generator & Quote-to-Cash System** | **Candidate** | **91/100** | **0** | **↑2** | **9/10** | **98/100** | **95%** | **100%** | Drywall / gypsum / false-ceiling installers | **87/100** | Deterministic pricing rules plus a strong exact niche keep it top five. | Replay historical quotes, define survey gates, then test live estimate-to-quote. | `businesses/instant-quote-quote-to-cash/RESEARCH.md` |
 | **AI Support & Sales Assistant** | **Candidate** | **90/100** | **-3** | **—** | **10/10** | **88/100** | **96%** | **100%** | Dubai holiday-home operators | **78/100** | Strong category, but native vertical software already absorbs much routine support. | Choose a vertical where native software leaves a measurable gap. | `businesses/ai-support-sales-assistant/RESEARCH.md` |
-| **Agentic AI Specialist Recruitment Agency** | **Candidate** | **90/100** | **NEW** | **NEW** | **8/10** | **80/100** | **94%** | **100%** | UAE/GCC AI consultancies, systems integrators and enterprise AI delivery teams hiring production Agentic AI / Forward Deployed AI Engineers | **91/100** | Founder-origin specialist recruitment thesis with EMP4 component proof; differentiation must come from live proof-of-work verification and trusted evidence, not a generic directory or badge. | Run a 10-candidate v0 live proof-of-work cohort; require ≥3 verified candidates, ≥2 qualified employer interview/conversation requests and ≥1 paid employer commitment. | `businesses/agentic-ai-specialist-recruitment-agency/CURRENT.md` |
+| **Agentic AI Specialist Recruitment Agency** | **Candidate** | **90/100** | **NEW** | **NEW** | **8/10** | **80/100** | **94%** | **100%** | UAE/GCC AI consultancies, systems integrators and enterprise AI delivery teams | **91/100** | Founder-origin specialist recruitment thesis with EMP4 component proof; live proof-of-work evidence is the differentiation. | Run the 10-candidate v0 cohort; require ≥3 verified candidates, ≥2 employer interview/conversation requests and ≥1 paid employer commitment. | `businesses/agentic-ai-specialist-recruitment-agency/CURRENT.md` |
 | **Talent Bridge Assessment & AI Interview Platform** | **Candidate** | **89/100** | **-2** | **↑1** | **10/10** | **85/100** | **90%** | **100%** | UAE/GCC boutique recruitment agencies / RPOs | **87/100** | Strong proprietary assets; licensing, privacy, fairness and bounded human review remain gates. | Run one recurring agency evidence-pack pilot with human review. | `businesses/talent-bridge-assessment-ai-interview-platform/CURRENT.md` |
 | **Agentic Commerce Visibility & Conversion Engine** | **Candidate** | **89/100** | **-1** | **↑2** | **9/10** | **83/100** | **90%** | **100%** | UAE/GCC multi-channel retailers and DTC brands | **83/100** | High structural commerce opportunity; paid merchant retention and attributable conversion remain unproven. | Run 3–5 merchant baseline/optimisation tests. | `businesses/agentic-commerce-visibility-conversion-engine/CURRENT.md` |
-| **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | **Candidate** | **89/100** | **0** | **RESTORED** | **10/10** | **85/100** | **96%** | **100%** | Pending current niche refresh | — | Founder-restored core opportunity. GoHighLevel remains the anchor because reusable snapshots, SaaS Mode, provisioning, rebilling and Marketplace distribution materially define the productisation model. | Select one vertical and prove a second unrelated paying customer can be deployed from substantially the same foundation with bounded onboarding/support and attractive recurring gross contribution. | `businesses/highlevel-vertical-saas-snapshot/CURRENT.md` |
-| **AI Recommendation Visibility & GEO Engine** | **Candidate** | **88/100** | **NEW** | **NEW** | **9/10** | **88/100** | **90%** | **100%** | Dubai company-formation / business-setup consultancies | **86/100** | Golden emerging recurring service: recommendation/citation measurement, evidence-led optimisation, fixed-instrument re-test and monitoring. No ranking guarantees. | After founder approval, run one 10-account fixed-instrument test and require 2 unrelated paid deposits at ≥AED2,500 setup + ≥AED1,500/month. | `businesses/ai-recommendation-visibility-geo-engine/CURRENT.md` |
-| **Vertical AI Operating Systems & Agent Integration Packs** | **Candidate** | **88/100** | **0** | **↑1** | **9/10** | **78/100** | **90%** | **100%** | UAE building-material / industrial-supply distributor order desks | **89/100** | EMP3 market-proven order/procurement automation is a strong atomic route: automate email/WhatsApp/PDF order capture into ERP drafts while gating material exceptions. | Replay 50 historic orders with one UAE distributor and require a paid design-partner deposit before custom integration expands. | `businesses/vertical-ai-operating-systems-agent-integration-packs/CURRENT.md` |
-| **AI-First Managed IT & Employee Support** | **Candidate** | **87/100** | **NEW** | **NEW** | **10/10** | **78/100** | **93%** | **100%** | UAE professional-services SMEs, 10–40 staff, M365-first, no internal IT | **86/100** | Mature UAE managed-IT demand plus a fast-emerging AI-first MSP pattern create a strong recurring opportunity, but security/privileged actions and human/on-site support must stay bounded. | Obtain 2 unrelated paid UAE SME commitments at the test floor and measure 30-day automated resolution, human minutes, tool cost and renewal intent. | `businesses/ai-first-managed-it-employee-support/CURRENT.md` |
-| **AI Procurement Savings & Sourcing Operations** | **Candidate** | **87/100** | **NEW** | **NEW** | **9/10** | **85/100** | **92%** | **100%** | UAE fit-out / MEP / specialist contractors with repeated project RFQs | **86/100** | Multiple paid procurement operators plus direct Dubai/GCC category proof validate recurring demand. Generic RFQ software is commoditised; the sellable wedge is measured savings + controlled sourcing operations. | Run one ≥20-event historic RFQ/procurement diagnostic and require one paid pilot at the pre-committed floor before integration expands. | `businesses/ai-procurement-savings-sourcing-operations/CURRENT.md` |
+| **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | **Candidate** | **89/100** | **0** | **RESTORED** | **10/10** | **85/100** | **96%** | **100%** | UAE HVAC/AC maintenance and service contractors | **88/100** | Founder-core opportunity now fully underwritten: EMP3/95, RBS84/P1/TEST. The live gate is two-client snapshot reuse and recurring support economics. | Deploy two unrelated paid UAE HVAC contractors from one frozen v1 snapshot at ≥AED2,500 setup + ≥AED1,250/month each. | `businesses/highlevel-vertical-saas-snapshot/CURRENT.md` |
+| **AI Recommendation Visibility & GEO Engine** | **Candidate** | **88/100** | **NEW** | **NEW** | **9/10** | **88/100** | **90%** | **100%** | Dubai company-formation / business-setup consultancies | **86/100** | Golden emerging recurring service; no ranking guarantees. | Run one 10-account fixed-instrument test and require 2 unrelated paid deposits after founder approval. | `businesses/ai-recommendation-visibility-geo-engine/CURRENT.md` |
+| **Vertical AI Operating Systems & Agent Integration Packs** | **Candidate** | **88/100** | **0** | **↑1** | **9/10** | **78/100** | **90%** | **100%** | UAE building-material / industrial-supply distributor order desks | **89/100** | EMP3 market-proven order/procurement automation around the incumbent ERP. | Replay 50 historic orders and require a paid design-partner deposit. | `businesses/vertical-ai-operating-systems-agent-integration-packs/CURRENT.md` |
+| **AI Conversation Quality & Revenue Intelligence** | **Candidate** | **88/100** | **NEW** | **NEW** | **10/10** | **88/100** | **92%** | **100%** | Dubai real-estate brokerages / developer sales teams with 20–100 agents and lawful call recording | **88/100** | EMP3 recurring category with strong call-volume/revenue logic; generic analytics is commoditised, so the wedge is calibrated QA + manager/revenue action. | One paid Dubai team at ≥AED5,000 setup + ≥AED3,000/month using ≥500 lawful recorded calls; prove bounded calibration, actionable findings and reuse. | `businesses/ai-conversation-quality-revenue-intelligence/CURRENT.md` |
+| **AI-First Managed IT & Employee Support** | **Candidate** | **87/100** | **NEW** | **NEW** | **10/10** | **78/100** | **93%** | **100%** | UAE professional-services SMEs, 10–40 staff, M365-first, no internal IT | **86/100** | Mature UAE managed-IT demand plus AI-first MSP leverage; privileged actions and on-site support remain bounded-human gates. | Obtain 2 unrelated paid UAE SME commitments and measure 30-day automated resolution, human minutes, tool cost and renewal intent. | `businesses/ai-first-managed-it-employee-support/CURRENT.md` |
+| **AI Procurement Savings & Sourcing Operations** | **Candidate** | **87/100** | **NEW** | **NEW** | **9/10** | **85/100** | **92%** | **100%** | UAE fit-out / MEP / specialist contractors with repeated project RFQs | **86/100** | Paid procurement operators validate recurring demand; free RFQ tools force the wedge toward measured savings and controlled sourcing operations. | Run one ≥20-event historic diagnostic and require one paid pilot at the floor. | `businesses/ai-procurement-savings-sourcing-operations/CURRENT.md` |
 | **Recruitment OS / Hiring Intelligence SaaS** | **Candidate** | **87/100** | **-4** | **↓2** | **10/10** | **78/100** | **88%** | **100%** | UAE/GCC boutique recruitment agencies / executive-search firms / RPOs | **81/100** | Attractive as differentiated intelligence around an existing ATS. | Sell one intelligence/evaluation module before expanding platform scope. | `businesses/recruitment-os-hiring-intelligence-saas/CURRENT.md` |
-| **Autonomous AI Revenue Operations Business-in-a-Box** | **Candidate** | **87/100** | **+6** | **↑9** | **9/10** | **85/100** | **94%** | **100%** | MEP/HVAC tender & RFQ operations *(delivery-rail evidence)* | **84/100** | Vendor-neutral parent has strong category and WTP evidence. Managed-agent services are commercially credible; open agent-marketplace liquidity and fully autonomous end-to-end business operation remain immature. | Run one high-value vendor-neutral workflow; measure fully loaded cost/success/human recovery, then prove second-client reuse and managed-operations renewal. | `businesses/grok-bot-ai-revenue-operations/CURRENT.md` + `research/autonomous-ai-revenue-operations-2026-09.md` |
-| **AI-Enabled Finance Operations & Bookkeeping** | **Candidate** | **86/100** | **NEW** | **NEW** | **10/10** | **78/100** | **90%** | **100%** | UAE service SMEs with 30–150 monthly transactions and no in-house finance team | **84/100** | UAE monthly bookkeeping demand and local AI-native operators are market proven. The viable wedge is managed finance operations with qualified-accountant review, not autonomous accounting or unregistered tax representation. | Secure 2 unrelated paid monthly clients at ≥AED1,250/month; measure onboarding, accountant-review minutes, exceptions, gross contribution and renewal. | `businesses/ai-enabled-finance-operations-bookkeeping/CURRENT.md` |
-| **Assessment-as-a-Service Managed Retainer** | **Candidate** | **85/100** | **0** | **↑7*** | **9/10** | **78/100** | **92%** | **100%** | Not yet canonically scored | — | Immediate low-build recurring service using existing Talent Bridge capability. | Offer one current employer a three-month minimum retainer. | `businesses/assessment-as-a-service-managed-retainer/RESEARCH.md` |
-| **Reputation & Local Visibility Engine** | **Candidate** | **85/100** | **-3** | **↓1*** | **10/10** | **90/100** | **95%** | **100%** | Dubai dental / aesthetic clinics | **79/100** | Better as attached trust/conversion module than standalone software. | Next useful evidence is a paid 90-day attached clinic pilot, not more generic reputation-software research. | `businesses/reputation-local-visibility-engine/RESEARCH.md` |
+| **Autonomous AI Revenue Operations Business-in-a-Box** | **Candidate** | **87/100** | **+6** | **↑9** | **9/10** | **85/100** | **94%** | **100%** | MEP/HVAC tender & RFQ operations *(delivery-rail evidence)* | **84/100** | Strong category/WTP evidence; RBS/Proof still need vendor-neutral commercial completion. | Run one high-value workflow and prove second-client reuse plus managed-operations renewal. | `businesses/grok-bot-ai-revenue-operations/CURRENT.md` + `research/autonomous-ai-revenue-operations-2026-09.md` |
+| **AI-Enabled Finance Operations & Bookkeeping** | **Candidate** | **86/100** | **NEW** | **NEW** | **10/10** | **78/100** | **90%** | **100%** | UAE service SMEs with 30–150 monthly transactions and no in-house finance team | **84/100** | UAE monthly bookkeeping demand and local AI-native operators are market proven; human/accountant boundary remains material. | Secure 2 unrelated paid monthly clients at ≥AED1,250/month and measure review/exception/contribution/renewal. | `businesses/ai-enabled-finance-operations-bookkeeping/CURRENT.md` |
+| **Assessment-as-a-Service Managed Retainer** | **Candidate** | **85/100** | **0** | **↑7*** | **9/10** | **78/100** | **92%** | **100%** | Not yet canonically scored | — | Immediate low-build recurring service using existing Talent Bridge capability. | Underwrite exact retainer price/capacity/support economics, then offer one employer a bounded retainer. | `businesses/assessment-as-a-service-managed-retainer/RESEARCH.md` |
+| **Reputation & Local Visibility Engine** | **Candidate** | **85/100** | **-3** | **↓1*** | **10/10** | **90/100** | **95%** | **100%** | Dubai dental / aesthetic clinics | **79/100** | Better as attached trust/conversion module than standalone software. | Next useful evidence is a paid 90-day attached clinic pilot. | `businesses/reputation-local-visibility-engine/RESEARCH.md` |
 | **White-Label Hiring Portal for Employers/Agencies** | **Researching** | **85/100** | **-3** | **—*** | **10/10** | **80/100** | **88%** | **100%** | Not yet canonically scored | — | Useful wrapper for proprietary IP; portal infrastructure itself is not a moat. | Pilot a branded assessment/evaluation delivery surface without ATS rebuild. | `businesses/white-label-hiring-portal/RESEARCH.md` |
 | **Partner-Delivered Recruitment / Score Hire Model** | **Candidate** | **85/100** | **0** | **↑3*** | **7/10** | **80/100** | **90%** | **100%** | Not yet canonically scored | — | Fast low-build cash lane and evidence generator. | Run one live role under written SLA and commercial terms. | `businesses/partner-delivered-recruitment-score-hire/RESEARCH.md` |
 | **UAE/GCC Talent Intelligence & Salary Data Subscription** | **Researching** | **85/100** | **-3** | **↓3*** | **10/10** | **90/100** | **80%** | **100%** | Not yet canonically scored | — | Strong recurring economics; data rights and validity remain material gates. | Complete data-rights/methodology audit and publish one narrow benchmark. | `businesses/uae-gcc-talent-intelligence-salary-data/RESEARCH.md` |
 | **Niche API & Data Product Factory** | **Candidate** | **84/100** | **-3** | **↓2*** | **10/10** | **88/100** | **86%** | **100%** | Not yet canonically scored | — | Attractive usage model; currently infrastructure seeking a proprietary recurring problem. | Require first paid repeated usage before adding endpoints. | `businesses/niche-api-data-product-factory/RESEARCH.md` |
 | **Local SEO Rank-and-Rent Lead Asset Portfolio** | **Candidate** | **84/100** | **0** | **↑3*** | **10/10** | **93/100** | **84%** | **100%** | Not yet canonically scored | — | Mature recurring model with ranking delay and asset-specific economics. | Launch one UAE niche/location asset with renter target. | `businesses/local-seo-rank-and-rent/RESEARCH.md` |
-| **Business Blueprints** | **Candidate** | **82/100** | **0** | **↑5*** | **9/10** | **78/100** | **90%** | **100%** | HVAC/AC Enquiry-to-Revenue Blueprint | **92/100** | Platform-neutral parent; Whop is one endpoint rather than the business definition. | Package one proven DRF Blueprint and test it across at least two compatible endpoints. | `businesses/business-blueprints/RESEARCH.md` |
+| **Business Blueprints** | **Candidate** | **82/100** | **0** | **↑5*** | **9/10** | **78/100** | **90%** | **100%** | HVAC/AC Enquiry-to-Revenue Blueprint | **92/100** | 11 Sep specialist refresh unchanged; more channel desk research does not reduce the live proof gap. | Obtain two unrelated paid buyers/deposits at US$199–399 with deployment intent and one non-favour acquisition route. | `businesses/business-blueprints/RESEARCH.md` |
 | **Executive Career Accelerator / Job Search Platform** | **Candidate** | **81/100** | **-2** | **↑4*** | **7/10** | **83/100** | **88%** | **100%** | Not yet canonically scored | — | Fast to monetise; finite programme duration weakens MRR. | Package digitally and measure paid conversion, support burden, upgrades and retention. | `businesses/executive-career-accelerator-job-search-platform/RESEARCH.md` |
 | **Pre-Assessed Talent Pool Subscription** | **Researching** | **81/100** | **-5** | **↓4** | **10/10** | **80/100** | **84%** | **100%** | Not yet canonically scored | — | Attractive asset reuse; consent, freshness and liquidity are fundamental costs. | Build one permissioned role pool and test paid employer access. | `businesses/pre-assessed-talent-pool-subscription/RESEARCH.md` |
 | **ChatGPT Plugin / App Factory** | **Candidate** | **79/100** | **-5** | **↓2** | **6/10** | **88/100** | **86%** | **100%** | Not yet canonically scored | — | Build/distribution attractive; one-off app creation weakens MRR without recurring backend. | Productise only a proven recurring backend/service. | `businesses/chatgpt-plugin-app-factory/RESEARCH.md` |
@@ -68,15 +65,7 @@ DRF is expansion-first. There is no fixed opportunity-count ceiling. Deduplicati
 | **Saffa.ae Community + Trusted Local Business Marketplace** | **Researching** | **76/100** | **-4** | **—** | **8/10** | **83/100** | **82%** | **100%** | Not yet canonically scored | — | Trust thesis remains valid; traffic, engagement and monetisation are unproven. | Prove engagement and a paid sponsor/listing cohort. | `businesses/saffa-ae-community-marketplace/RESEARCH.md` |
 | **AI-First Marketplace Directory** | **Researching** | **72/100** | **-5** | **↓1** | **8/10** | **80/100** | **92%** | **100%** | Not yet canonically scored | — | Technology is cheap; a narrow market and distribution are the business. | Run one rights-safe niche concierge directory/lead test. | `businesses/ai-first-marketplace-directory/RESEARCH.md` |
 
-\* Rank-Δ values marked with an asterisk retain the 29 August base-comparison history; subsequent targeted insertions change physical rank without rewriting historical base deltas.
-
-### How to read the niche column
-
-- A high Opportunity Score plus a **Sniper niche (85+)** supports a bounded live market test, subject to evidence confidence and execution constraints.
-- A high parent score with only a **Strong/Testable niche (<85)** must be narrowed before scaling.
-- **Not yet canonically scored** means no dedicated v3 product×niche dossier exists; it receives no artificial bonus or penalty.
-- The Autonomous AI row's 84 niche remains **delivery-rail evidence from the prior Grok-heavy thesis**, not a fresh vendor-neutral niche score.
-- Exact commercial duplicates may be consolidated, but shared platform/vendor/technology/outcome overlap is not sufficient to retire a distinct opportunity.
+\* Asterisked Rank-Δ values retain the 29 August base-comparison history; later insertions change physical rank without rewriting that historical delta.
 
 ## Factor key
 
@@ -99,9 +88,9 @@ DRF is expansion-first. There is no fixed opportunity-count ceiling. Deduplicati
 | **MRR** | **MRR / Recurring Revenue Quality** | **11** |
 | **Total** |  | **100** |
 
-## Validated scores — latest targeted update 7 September 2026
+## Validated scores — latest targeted update 11 September 2026
 
-All factors are 0–10. Weighted Score uses the canonical weights above. **All 31 rows below are active opportunity scores; taxonomy normalisation does not remove a distinct commercial model.**
+All factors are 0–10. Weighted Score uses the canonical weights above. **All 33 rows below are active opportunity scores.**
 
 | Opportunity | MS | MG | TW | WP | AB | AM | AD | HD | SC | SR | MP | SCALE | PG | MOAT | MRR | Weighted Score |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -117,6 +106,7 @@ All factors are 0–10. Weighted Score uses the canonical weights above. **All 3
 | **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | 10 | 9 | 8 | 8 | 9 | 8 | 9 | 8 | 9 | 8 | 10 | 10 | 8 | 7 | 10 | **88.8 → 89** |
 | **Vertical AI Operating Systems & Agent Integration Packs** | 10 | 10 | 9 | 9 | 9 | 8 | 8 | 6 | 9 | 9 | 9 | 9 | 8 | 8 | 9 | **88.1 → 88** |
 | **AI Recommendation Visibility & GEO Engine** | 8 | 10 | 10 | 8 | 9 | 9 | 9 | 8 | 10 | 9 | 9 | 9 | 7 | 6 | 9 | **87.7 → 88** |
+| **AI Conversation Quality & Revenue Intelligence** | 9 | 9 | 8 | 9 | 9 | 8 | 9 | 9 | 9 | 8 | 9 | 10 | 7 | 6 | 10 | **87.6 → 88** |
 | **AI-First Managed IT & Employee Support** | 9 | 9 | 9 | 10 | 9 | 8 | 8 | 6 | 9 | 9 | 8 | 9 | 7 | 7 | 10 | **86.7 → 87** |
 | **AI Procurement Savings & Sourcing Operations** | 9 | 9 | 9 | 9 | 9 | 8 | 9 | 8 | 9 | 8 | 9 | 9 | 7 | 7 | 9 | **86.5 → 87** |
 | **Recruitment OS / Hiring Intelligence SaaS** | 10 | 9 | 8 | 9 | 9 | 7 | 8 | 7 | 9 | 7 | 10 | 10 | 8 | 8 | 10 | **87.4 → 87** |
@@ -140,8 +130,6 @@ All factors are 0–10. Weighted Score uses the canonical weights above. **All 3
 
 ## Independent evidence controls
 
-Evidence Confidence measures trust in the scoring inputs. Research Completeness measures whether all factors were investigated. Neither substitutes for operating evidence.
-
 | Opportunity | Evidence Confidence | Research Completeness | Remaining live gate |
 |---|---:|---:|---|
 | WhatsApp + CRM Revenue Core | **97%** | **100%** | One paid/live design partner with measured onboarding, support, ROI and retention. |
@@ -150,25 +138,26 @@ Evidence Confidence measures trust in the scoring inputs. Research Completeness 
 | Missed Lead & Appointment Conversion Engine | **96%** | **100%** | Baseline-to-post-install contact/booking uplift and retention. |
 | Instant Quote Generator & Quote-to-Cash System | **95%** | **100%** | Historical quote accuracy plus live conversion/margin impact. |
 | AI Support & Sales Assistant | **96%** | **100%** | Incremental resolution/booking beyond native vertical software and escalation burden. |
-| Agentic AI Specialist Recruitment Agency | **94%** | **100%** | 10-candidate live proof-of-work cohort must produce ≥3 verified candidates, ≥2 qualified employer interview/conversation requests and ≥1 paid employer commitment with bounded human review. |
+| Agentic AI Specialist Recruitment Agency | **94%** | **100%** | 10-candidate cohort: ≥3 verified candidates, ≥2 employer requests and ≥1 paid employer commitment with bounded review. |
 | Talent Bridge Assessment & AI Interview Platform | **90%** | **100%** | Employer/agency paid use, bounded human-review burden, compliance controls and renewal. |
 | Agentic Commerce Visibility & Conversion Engine | **90%** | **100%** | Paid merchant retention and attributable conversion uplift. |
-| Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor | **96%** | **100%** | Select one vertical and prove a second unrelated paying customer can be deployed from substantially the same foundation with bounded onboarding/support and attractive recurring gross contribution. |
+| Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor | **96%** | **100%** | Two unrelated UAE HVAC customers from one frozen snapshot with ≥80% reuse, ≤4h onboarding/client and positive recurring contribution. |
 | AI Recommendation Visibility & GEO Engine | **90%** | **100%** | Dubai paid price acceptance, bounded human delivery, fixed-instrument outcome change and recurring renewal. |
-| Vertical AI Operating Systems & Agent Integration Packs | **90%** | **100%** | One paid UAE distributor order-desk pack with safe order-draft automation, bounded ERP/SKU exceptions and a credible second-client reuse path. |
-| AI-First Managed IT & Employee Support | **93%** | **100%** | Two unrelated paid UAE SME clients plus 30-day evidence on automated resolution, human/on-site work, security controls, gross contribution and renewal. |
-| AI Procurement Savings & Sourcing Operations | **92%** | **100%** | One ≥20-event UAE contractor historic diagnostic proving repeatable savings/admin value and one paid pilot at the commercial floor. |
+| Vertical AI Operating Systems & Agent Integration Packs | **90%** | **100%** | One paid UAE distributor order-desk pack with safe automation and credible second-client reuse. |
+| AI Conversation Quality & Revenue Intelligence | **92%** | **100%** | Paid Dubai brokerage, lawful usable recordings, calibrated ≥80% first-pass automation, actionable findings, bounded support and reuse. |
+| AI-First Managed IT & Employee Support | **93%** | **100%** | Two unrelated paid UAE SME clients plus 30-day resolution/human-work/security/contribution/renewal evidence. |
+| AI Procurement Savings & Sourcing Operations | **92%** | **100%** | One ≥20-event historic diagnostic plus paid pilot at commercial floor. |
 | Recruitment OS / Hiring Intelligence SaaS | **88%** | **100%** | External paid use of one intelligence module around an existing ATS. |
-| Autonomous AI Revenue Operations Business-in-a-Box | **94%** | **100%** | First paid vendor-neutral workflow, second-client reuse, fully loaded cost/success, support minutes and managed-operations renewal. |
-| AI-Enabled Finance Operations & Bookkeeping | **90%** | **100%** | Two unrelated paid UAE SME clients with bounded accountant-review/exception work, governed finance-data handling and positive recurring contribution. |
-| Assessment-as-a-Service Managed Retainer | **92%** | **100%** | Retainer conversion, servicing minutes, recurring margin and renewal. |
-| Reputation & Local Visibility Engine | **95%** | **100%** | Paid attached-service price, 60–90 day attributable lead/booking lift, support/compliance minutes and renewal. |
+| Autonomous AI Revenue Operations Business-in-a-Box | **94%** | **100%** | Vendor-neutral niche/RBS/Proof completion and then first paid repeatable workflow. |
+| AI-Enabled Finance Operations & Bookkeeping | **90%** | **100%** | Two unrelated paid UAE SME clients with bounded accountant-review/exception work and positive recurring contribution. |
+| Assessment-as-a-Service Managed Retainer | **92%** | **100%** | Exact retainer price/capacity, servicing minutes, recurring margin and renewal. |
+| Reputation & Local Visibility Engine | **95%** | **100%** | Paid attached-service price, 60–90 day attributable lift, support/compliance minutes and renewal. |
 | White-Label Hiring Portal for Employers/Agencies | **88%** | **100%** | Paid external portal use and support cost without ATS scope creep. |
 | Partner-Delivered Recruitment / Score Hire Model | **90%** | **100%** | One live role proving partner SLA, quality, margin and repeat-client economics. |
 | UAE/GCC Talent Intelligence & Salary Data Subscription | **80%** | **100%** | Data-rights/methodology audit, sample validity and paid recurring buyer demand. |
 | Niche API & Data Product Factory | **86%** | **100%** | One lawful proprietary dataset/function with paid repeated usage. |
 | Local SEO Rank-and-Rent Lead Asset Portfolio | **84%** | **100%** | Ranking, qualified leads, renter acquisition and retention on one asset. |
-| Business Blueprints | **90%** | **100%** | Actual deployment conversion, downstream activation/retention, support and channel economics. |
+| Business Blueprints | **90%** | **100%** | Actual buyer/deployment conversion, activation, support, channel contribution and retention. |
 | Executive Career Accelerator / Job Search Platform | **88%** | **100%** | Digital paid conversion, support intensity, upgrades and finite-duration retention. |
 | Pre-Assessed Talent Pool Subscription | **84%** | **100%** | Consent, freshness maintenance economics and recurring employer access demand. |
 | ChatGPT Plugin / App Factory | **86%** | **100%** | Recurring backend monetisation, activation and paid retention. |
@@ -195,6 +184,7 @@ Evidence Confidence measures trust in the scoring inputs. Research Completeness 
 | Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor | 9 | 8 | 9 | 8 | **85** |
 | AI Recommendation Visibility & GEO Engine | 9 | 9 | 9 | 8 | **88** |
 | Vertical AI Operating Systems & Agent Integration Packs | 9 | 8 | 8 | 6 | **78** |
+| AI Conversation Quality & Revenue Intelligence | 9 | 8 | 9 | 9 | **88** |
 | AI-First Managed IT & Employee Support | 9 | 8 | 8 | 6 | **78** |
 | AI Procurement Savings & Sourcing Operations | 9 | 8 | 9 | 8 | **85** |
 | Recruitment OS / Hiring Intelligence SaaS | 9 | 7 | 8 | 7 | **78** |
@@ -218,112 +208,35 @@ Evidence Confidence measures trust in the scoring inputs. Research Completeness 
 
 ## Strategic portfolio interpretation
 
-### 1. One UAE revenue stack still dominates the near-term portfolio
-
-```text
-WhatsApp + CRM foundation
-→ Revenue Recovery / Missed Lead / AI Voice / Instant Quote
-→ measure outcome + cost
-→ attach AI Support / Reputation only when data proves a gap
-→ package into a vertical SaaS wrapper only after the vertical workflow is proven twice
-→ use a general agent only for cross-system judgement/exceptions
-```
-
-HVAC/AC remains the clearest first beachhead, followed by specialist MEP, aesthetic/dental and selected quote-heavy service niches.
-
-### 2. AI Recommendation Visibility remains a distinct emerging demand-capture parent
-
-The business is **not** generic SEO, reputation software or product-feed agentic commerce: it owns the repeatable buyer-intent prompt/citation measurement → evidence-led optimisation → fixed-instrument re-test → monthly monitoring outcome for service brands.
-
-### 3. GoHighLevel is a restored core opportunity and an implementation rail
-
-The active parent is **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor**. GoHighLevel also remains usable inside other outcome-first businesses, but that reuse does not erase the independently testable snapshot/SaaS productisation model.
-
-### 4. Vertical AI OS now has a Sniper commercial route
-
-The previously broad Vertical AI Operating Systems parent now has a **89/100 UAE distributor order-desk niche** backed by current global and UAE operator evidence. Sell one bounded email/WhatsApp/PDF-to-ERP order-draft workflow, keep the ERP as system of record, and prove second-client reuse.
-
-### 5. AI-Enabled Finance Operations adds a recurring managed-finance lane
-
-The **86/100** parent captures a distinct UAE SME outcome: clean monthly books, close and compliance-readiness with AI-assisted processing and qualified-accountant review.
-
-### 6. AI-first managed IT adds a recurring employee-operations lane
-
-The new **87/100** parent captures existing UAE managed-IT spend with an AI-first labour model. The product is an outsourced IT department with audited, bounded automation and explicit human/partner escalation; it is not an autonomous-admin thesis.
-
-### 7. AI Procurement Savings adds a buyer-side savings lane
-
-The new **87/100** parent sells recurring sourcing/admin savings to purchasing organisations. It is separate from the distributor sales-order niche because the payer, workflow and revenue mechanism differ. Free RFQ tools force the product up the value stack toward measured savings, governance and managed execution.
-
-### 8. Autonomous AI Revenue Operations remains a top structural opportunity
-
-The vendor-neutral parent is **87** because agents are a real paid operating layer, but it still does not outrank proven outcome-specific revenue businesses; its next gate is one repeatable paid low-support workflow.
-
-### 9. Business Blueprints remains a distribution multiplier
-
-```text
-prove a DRF business system
-→ package it as a Blueprint
-→ distribute across compatible channels
-→ measure deployment + downstream economics
-→ attach implementation/managed service where valuable
-```
-
-### 10. Platform-neutral classification has a platform-led exception
-
-Platforms and vendors are normally delivery/distribution mechanisms, not proof of customer demand. But when a platform materially defines reusable packaging, recurring economics, automated provisioning, rebilling, marketplace/distribution or buyer proposition, it may remain part of a first-class opportunity identity.
-
-### 11. Talent Bridge should run a parallel cash-and-data lane
-
-Assessment-as-a-Service and Partner-Delivered Recruitment remain useful because their execution speed and existing assets can generate cash and evidence while slower platform/data products remain in research.
-
-### 12. Commodity software remains penalised
-
-Generic websites, job boards, marketplaces, prompts and monitoring dashboards are easy to build or rent. That does not solve buyer acquisition, implementation, recurring decision value or moat.
-
-## Niche selection rule
-
-After selecting a parent opportunity, choose the market using `businesses/NICHES.md` and:
-
-`Outcome × Niche × Customer Channel × System of Record × Agent Layer`
-
-For UAE service businesses, the default remains WhatsApp-first unless exact niche evidence says otherwise.
+1. The strongest near-term UAE revenue stack remains WhatsApp/CRM + Revenue Recovery/Missed Lead/Voice/Quote-to-Cash, with paid execution evidence now more valuable than more desk research.
+2. **AI Conversation Quality & Revenue Intelligence** is distinct from AI Voice: it monetises comprehensive QA/coaching/revenue intelligence over human/mixed calls. Its moat cannot be transcription; it must be calibrated management action and outcome linkage.
+3. **GoHighLevel Vertical SaaS** is now fully desk-underwritten again. Strong first-party operator evidence validates SaaS/snapshot economics, while documented churn/support requirements make two-client reuse and support minutes the decisive DRF test.
+4. **Agentic AI Specialist Recruitment** is a founder-origin high-ranked TEST parent; the next information gain is the live 10-candidate cohort, not marketplace build.
+5. **Business Blueprints** remains a distribution multiplier; 11 September channel checks are unchanged and do not justify score/proof movement.
+6. Talent Bridge should continue parallel cash/evidence lanes through Assessment-as-a-Service and Partner-Delivered Recruitment while platform/data products mature.
+7. Generic dashboards, templates and commodity AI features remain penalised unless the recurring buyer outcome, distribution or proprietary evidence layer is clear.
 
 ## Capital and rescore gate
 
-No score in this file is product-market-fit proof. Further material score movements should come primarily from cash collected, CAC/payback, support/delivery minutes, cost per successful outcome, measurable customer ROI, gross margin, retention/expansion and exception/recovery rates.
+No score here is PMF proof. Further material movements should come primarily from actual cash, CAC/payback, support/delivery minutes, cost per successful outcome, customer ROI, gross margin, retention/expansion and exception/recovery rates.
 
-For **Autonomous AI Revenue Operations**, do not raise the score further from additional desk research alone. Require paid/repeatable delivery evidence and managed-operations retention.
+For **GoHighLevel Vertical SaaS**, do not raise the score from more case studies. Require two paid UAE HVAC clients using substantially the same snapshot with bounded onboarding/support and positive recurring contribution.
 
-For **AI Recommendation Visibility & GEO Engine**, do not raise the score from more generic tool launches. Require paid UAE transferability, bounded support and recurring renewal evidence.
+For **AI Conversation Quality & Revenue Intelligence**, do not raise the score from more call-analytics tools. Require paid Dubai transferability, lawful data, calibrated manager-validated findings, bounded review/support and renewal/reuse evidence.
 
-For **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor**, do not re-litigate whether the founder-origin opportunity exists. Refresh niche, pricing, RBS and proof by testing repeatable deployment and recurring economics.
-
-For **AI-Enabled Finance Operations & Bookkeeping**, require paid UAE clients, bounded accountant-review/cleanup effort, governed financial-data handling and recurring contribution.
-
-For **Agentic AI Specialist Recruitment Agency**, do not raise proof from more desk research or directory build. Require the 10-candidate v0 cohort plus qualified employer action and one paid commercial commitment; measure human-review burden and evidence-pack trust.
-
-For **AI-First Managed IT & Employee Support**, require paid UAE clients, safe privileged-action controls, bounded human/on-site work and recurring gross contribution.
-
-For **AI Procurement Savings & Sourcing Operations**, require a real historic procurement diagnostic and paid pilot showing savings/admin value without proprietary supplier-scale dependence or manual-work creep.
-
-For **Vertical AI Operating Systems**, the distributor-order niche advances the parent to TEST but does not justify a parent score increase until the same architecture is reused on a second paying customer with bounded exceptions.
+For **Agentic AI Specialist Recruitment**, require the v0 cohort and qualified employer action before proof progression.
 
 ## Canonical supporting research
 
 - `research/opportunity-portfolio-rescore-after-niche-v3-2026-08-29.md`
 - `research/niches/COMPREHENSIVE-V3-COMPLETION.md`
 - `businesses/NICHES.md`
-- `research/opportunity-execution-velocity-and-staircase-2026-08-29.md`
-- `research/ai-delivery-economics-portfolio-rescore-2026-08-29.md`
 - `research/autonomous-ai-revenue-operations-2026-09.md`
-- `https://github.com/tbhrc/research/blob/main/research/technology/ai-visibility-geo.md`
-- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-enabled-finance-operations-uae-smes.md`
-- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-order-procurement-operations-wholesale-distributors.md`
-- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-first-managed-it-uae-smes.md`
-- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-procurement-savings-operations-uae.md`
+- `https://github.com/tbhrc/research/blob/main/research/business-models/ai-conversation-quality-revenue-intelligence.md`
+- `https://github.com/tbhrc/research/blob/main/research/business-models/managed-ai-governance-compliance-operations-uae.md`
+- `https://github.com/tbhrc/research/blob/main/research/business-models/agentic-ai-specialist-recruitment-agency.md`
 - all current `businesses/*/RESEARCH.md` / `CURRENT.md` opportunity dossiers
 
 ## Table format rule
 
-Markdown remains canonical. CSV/XLSX may be created later for formulas, pivots, sorting and charts, but must not silently become a conflicting source of truth.
+Markdown remains canonical. CSV/XLSX may be created later for formulas/pivots/charts but must not become a conflicting source of truth.
