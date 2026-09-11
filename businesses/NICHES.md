@@ -1,10 +1,10 @@
 # DRF Niche Opportunity Register
 
 **Status:** Canonical niche register  
-**Version:** 1.15  
-**Date:** 10 September 2026  
+**Version:** 1.16  
+**Date:** 11 September 2026  
 **Scoring framework:** `skills/drf-opportunity-factory/references/niche-scoring.md`  
-**Governing issues:** #26, #28, #40, #41, #44, #46, #113, #142, #166, #167, #169, #171, #173, #175, #184  
+**Governing issues:** #26, #28, #40, #41, #44, #46, #113, #142, #166, #167, #169, #171, #173, #175, #184, #185  
 **Canonical evidence library:** `research/niches/README.md`  
 **Comprehensive dossier standard:** `skills/drf-opportunity-factory/references/niche-research-standard.md`
 
@@ -29,7 +29,7 @@ Scores are desk-research scores until live prospect/customer evidence exists. **
 ### Commercial layers
 
 - **Foundation** — persistent customer/revenue infrastructure such as WhatsApp + CRM Revenue Core.
-- **Outcome** — measurable commercial result such as Revenue Recovery, Missed Lead, Voice, Instant Quote, Support, Reputation or AI Recommendation Visibility.
+- **Outcome** — measurable commercial result such as Revenue Recovery, Missed Lead, Voice, Instant Quote, Support, Reputation, AI Recommendation Visibility or Conversation Quality & Revenue Intelligence.
 - **Vertical Platform** — bundled vertical operating product where the bundle itself has independent payer/outcome/revenue logic; a delivery rail alone is not a parent.
 - **Agentic Operations** — persistent cross-system work where a general agent creates enough incremental value to justify variable execution cost.
 - **Managed Operations** — recurring business administration where AI handles repeatable processing but qualified human review/regulated boundaries remain material.
@@ -39,11 +39,11 @@ Scores are desk-research scores until live prospect/customer evidence exists. **
 
 The seven niche rows originally researched under **Grok Bot AI-First Revenue Operations Business-in-a-Box** now join the current parent **Autonomous AI Revenue Operations Business-in-a-Box**. Their existing scores remain **delivery-rail evidence from the Grok-heavy thesis**, not a claim that those niches have been revalidated for every autonomous-agent architecture. The dossier paths and detailed factor labels preserve the historical Grok-specific evidence.
 
-### GoHighLevel parent restoration
+### GoHighLevel parent restoration and completion
 
 Under founder correction #169 and post-merge reconciliation #171, **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor is active again as a first-class founder-origin opportunity**. The #166/#167 retirement conclusion is superseded.
 
-The prior `research/niches/14-highlevel-rentals-holiday-home-operators.md` dossier remains historical niche evidence and is **not automatically restored as the current best niche**. GoHighLevel's active parent now requires a fresh cross-vertical niche comparison; until that work is completed, its best niche remains `Pending` in V3.
+The historical `research/niches/14-highlevel-rentals-holiday-home-operators.md` remains prior niche evidence. The fresh #185 cross-vertical completion now selects **UAE HVAC/AC maintenance and service contractors** at **88/100 / 89% confidence** as the current beachhead, because the same proven service-business workflow can be packaged into a reusable SaaS/snapshot product and tested for second-client reuse.
 
 ## Ranked niche summary
 
@@ -59,6 +59,8 @@ The prior `research/niches/14-highlevel-rentals-holiday-home-operators.md` dossi
 | **Foundation** | **WhatsApp + CRM Revenue Core** | WhatsApp lead-routing + broker pipeline core | Real estate brokerage | Broker teams/agencies with roughly 5–50 brokers and large lead databases | Dubai | Leads/conversations fragment across brokers and management lacks next-action visibility | **89/100** | **93%** | **Sniper — outcome-led overlay, not generic CRM** | Strong market evidence; incumbent software means focus on lead ownership/next-action gaps. | Validate adoption, consent/data provenance and lead-routing pain. | `research/niches/12-whatsapp-crm-real-estate-broker-teams.md` |
 | **Vertical Platform** | **Vertical AI Operating Systems & Agent Integration Packs** | Distributor Order Desk AI Operating Pack | Wholesale / distribution | Building-material and industrial-supply distributors with repeat B2B customers, email/WhatsApp/PDF orders and an existing ERP | UAE | Staff repeatedly re-enter orders, map account-specific SKUs/prices and chase exceptions/status across channels and ERP | **89/100** | **92%** | **Sniper — priority paid transferability test** | EMP3 external proof now includes global order/procurement operators plus UAE-local Orderra/DOPAS/Artin. The wedge is bounded order-desk automation around the incumbent ERP, not a new ERP. | One unrelated distributor; replay 50 historic orders, require paid deposit ≥AED5,000 against ≥AED12,500 setup + ≥AED2,500/month, target ≥70% safely auto-draftable with material ambiguity human-gated. | `research/niches/37-vertical-ai-distributor-order-desk-uae.md` |
 | **Outcome** | **Missed Lead & Appointment Conversion Engine** | WhatsApp/phone speed-to-lead + consultation booking + no-show rescue | Healthcare / aesthetics | Aesthetic/dermatology/cosmetic clinics with meaningful paid-media spend | Dubai | Expensive paid enquiries go cold before consultation booking | **88/100** | **94%** | **Sniper** | Strong category; exact clinic baseline remains the live gate. | Validate lead-to-book, response time and lost-lead value. | `research/niches/15-missed-lead-aesthetic-clinics.md` |
+| **Vertical Platform** | **Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor** | HVAC Revenue OS — GoHighLevel SaaS Edition | MEP / HVAC | Owner/GM-led HVAC/AC maintenance/service contractors with frequent inbound enquiries, quotes and recurring AMC/service work | UAE, priority Dubai | Enquiry, quote, missed-lead and AMC follow-up are fragmented, while a reusable SaaS/snapshot package could standardise the operating layer without rebuilding the incumbent ERP | **88/100** | **89%** | **Sniper — two-client reuse test** | EMP3 HighLevel SaaS/snapshot proof plus DRF's strongest HVAC workflow evidence support this beachhead; churn/support and platform dependence remain the live economics gates. | Deploy 2 unrelated paying UAE HVAC contractors from one frozen v1 snapshot at ≥AED2,500 setup + ≥AED1,250/month each; require client 2 ≥80% snapshot reuse and bounded onboarding/support. | `research/niches/42-highlevel-vertical-saas-hvac-uae.md` |
+| **Outcome / sales intelligence** | **AI Conversation Quality & Revenue Intelligence** | Sales Conversation QA & Revenue Intelligence Layer | Real estate sales | Brokerages / developer sales teams with roughly 20–100 sales/call-handling agents, meaningful lead/commission economics and existing lawful recorded business telephony | Dubai | Managers cannot manually review enough calls to see conversion/process failures, coach consistently or identify recurring lost-revenue behaviours | **88/100** | **86%** | **Sniper — bounded paid transferability test** | EMP3 conversation-QA category, transparent recurring prices and high Dubai brokerage economics support the niche; generic analytics is commoditised and lawful recording/calibration remain gates. | One paid team at ≥AED5,000 setup + ≥AED3,000/month using ≥500 lawful recorded calls/30 days; require ≥80% safe first-pass automation, ≥3 manager-validated findings and bounded review/support. | `research/niches/41-ai-conversation-quality-dubai-real-estate.md` |
 | **Foundation** | **WhatsApp + CRM Revenue Core** | WhatsApp quote + move-booking pipeline core | Moving / relocation | Residential and SME office movers with repeatable local-move enquiries | UAE, priority Dubai | Quote requests, survey status, scheduling and follow-up are handled manually | **87/100** | **91%** | **Sniper — narrowed to lead/quote conversion overlay** | Current evidence supports lead/quote conversion rather than replacing mover software. | Validate enquiry volume, quote tracking and current CRM usage. | `research/niches/11-whatsapp-crm-movers.md` |
 | **Foundation** | **WhatsApp + CRM Revenue Core** | WhatsApp enquiry + booking + customer pipeline overlay | Mobility / rentals | Car-rental operators with roughly 10–100 vehicles whose rental OS lacks strong pre-booking conversation lifecycle | Dubai | Fast WhatsApp/phone enquiries are delayed or unowned before confirmed booking | **87/100** | **91%** | **Sniper — only where rental OS leaves acquisition gap** | Strong UAE rental systems mean do not replace a capable rental OS. | Segment 20 operators by incumbent software and prove an unsolved pre-booking gap. | `research/niches/05-whatsapp-crm-dubai-car-rental.md` |
 | **Outcome** | **Revenue Recovery & Reactivation Engine** | Quote + pipeline recovery | Construction services | Specialist MEP contractors handling project quotations and maintenance work | UAE | Large quotations stall without systematic next actions | **87/100** | **91%** | **Sniper — quote/opportunity recovery, not ERP replacement** | Current evidence supports managed recovery through existing systems. | Segment contractor types and obtain quote-aging samples. | `research/niches/13-revenue-recovery-specialist-mep-contractors.md` |
@@ -105,6 +107,8 @@ All factor scores are 0–10. Weighted scoring follows the canonical niche frame
 | WhatsApp + CRM × Movers | 9 | 8 | 9 | 9 | 8 | 8 | 9 | 10 | 10 | 9 | **88.6 → 89** |
 | WhatsApp + CRM × Real-estate broker teams | 9 | 9 | 9 | 10 | 10 | 5 | 9 | 10 | 10 | 7 | **88.6 → 89** |
 | Vertical AI OS × Distributor Order Desk | 10 | 9 | 9 | 8 | 8 | 6 | 10 | 10 | 10 | 7 | **88.7 → 89** |
+| AI Conversation Quality × Dubai real-estate sales | 9 | 10 | 9 | 8 | 9 | 7 | 10 | 8 | 10 | 7 | **88.4 → 88** |
+| GoHighLevel Vertical SaaS × UAE HVAC/AC service | 9 | 9 | 9 | 8 | 9 | 6 | 9 | 10 | 10 | 8 | **87.5 → 88** |
 | WhatsApp + CRM × Car rental | 9 | 8 | 10 | 10 | 9 | 5 | 9 | 9 | 10 | 8 | **86.9 → 87** |
 | MEP contractors × Revenue Recovery | 9 | 9 | 8 | 9 | 9 | 8 | 10 | 9 | 9 | 7 | **88.2 → 88** |
 | Aesthetic clinics × Missed Lead | 10 | 9 | 9 | 9 | 8 | 5 | 10 | 9 | 10 | 7 | **87.5 → 88** |
@@ -139,21 +143,21 @@ Weights: Pain 15; Purchasing Power 12; Reachability 10; Growth 8; Volume 10; Und
 
 ## Current holistic validation staircase
 
-1. **HVAC/AC stack** — WhatsApp + CRM **92** → AI Voice **91** → Revenue Recovery **91** → optional Tender/RFQ **84**.
+1. **HVAC/AC stack** — WhatsApp + CRM **92** → AI Voice **91** → Revenue Recovery **91** → GoHighLevel Vertical SaaS **88** → optional Tender/RFQ **84**.
 2. **Specialist MEP stack** — WhatsApp + CRM **90** → Revenue Recovery **88** / Tender/RFQ **84** / AR **81**.
 3. **Aesthetic-clinic stack** — WhatsApp + CRM **90** → Missed Lead **88**.
 4. **Dental implant/full-arch stack** — WhatsApp + CRM **89** → Missed Lead **87**.
 5. **Distributor operations stack** — Vertical AI OS Distributor Order Desk **89**; keep ERP as system of record and prove paid repeatability before expanding into quote/procurement modules.
 6. **Movers stack** — WhatsApp + CRM **89** → Instant Quote **82**.
-7. **Real-estate broker stack** — WhatsApp + CRM **89** → optional agentic research/pipeline preparation **83**.
+7. **Real-estate broker stack** — WhatsApp + CRM **89** → AI Conversation Quality & Revenue Intelligence **88** → optional agentic research/pipeline preparation **83**.
 8. **Dubai car-rental stack** — use incumbent rental OS where capable; WhatsApp/CRM overlay **87** only when acquisition gap exists → Missed Lead **87** → optional Back-office Ops **74**.
-9. **Holiday-home stack** — WhatsApp + CRM **82** → AI Support **78** → optional Owner Ops **70**. GoHighLevel parent remains separately active with best niche Pending until fresh comparison.
+9. **Holiday-home stack** — WhatsApp + CRM **82** → AI Support **78** → optional Owner Ops **70**.
 10. **Automotive-workshop stack** — capable DMS often foundation; Revenue Recovery **86** → CRM overlay **85** only for legacy/weak-DMS segment → AI Voice **84** after validation.
 11. **Recruitment-agency stack** — Talent Bridge Assessment **87** → Recruitment OS intelligence layer **81**; keep ATS as system of record.
 12. **Dubai company-formation stack** — AI Recommendation Visibility **86**; conventional SEO/reputation remain complementary.
-13. **UAE SME finance stack** — AI Finance Operations **84**; strong recurring demand but human review, cleanup, price competition and regulated tax-agent boundaries keep it below Sniper until live economics are proven.
-14. **Agentic AI specialist recruitment stack** — Verified Agentic AI Engineer Shortlist **91**; strongest current talent-specific beachhead, with proof-of-work trust and accepted supply as the live gates.
+13. **UAE SME finance stack** — AI Finance Operations **84**; human review, cleanup, price competition and regulated tax-agent boundaries keep it below Sniper until live economics are proven.
+14. **Agentic AI specialist recruitment stack** — Verified Agentic AI Engineer Shortlist **91**; strongest current talent-specific beachhead, with proof-of-work trust and accepted supply as live gates.
 15. **AI-first managed IT stack** — UAE professional-services SMEs **86**; recurring budget is proven, while privileged/human/on-site burden is the live gate.
 16. **Procurement savings stack** — UAE fit-out/MEP/specialist contractors **86**; lead with measurable historic savings/admin value, not generic RFQ software.
 
-The **first recommended beachhead remains HVAC/AC** at 92. **Agentic AI specialist recruitment is now the strongest talent-specific beachhead at 91.** The distributor-order niche remains the strongest current atomic route for the broad Vertical AI Operating Systems parent.
+The **first recommended beachhead remains HVAC/AC** at 92. **Agentic AI specialist recruitment remains the strongest talent-specific beachhead at 91.** The distributor-order niche remains the strongest atomic route for Vertical AI Operating Systems. The new conversation-intelligence real-estate niche and completed GoHighLevel HVAC niche both enter at **88** and now have bounded paid Next Proofs.
