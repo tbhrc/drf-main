@@ -94,7 +94,7 @@ jobs:
             *) echo "Unsupported cloud executor: $EXECUTOR" >&2; exit 1 ;;
           esac
 
-          instructions="Treat Issue #${ISSUE_NUMBER} as the complete task specification. Read root AGENTS.md first and follow the DRF repository workflow. Prioritise commercial traction and the smallest safe solution. Work on an isolated branch, commit substantive work, and open a Pull Request to main. The PR body must use 'Refs #${ISSUE_NUMBER}' and must not use Fixes, Closes or Resolves. Stop before self-merge or Issue closure. Never expose secrets."
+          instructions="Treat Issue #${ISSUE_NUMBER} as the complete task specification. Read root AGENTS.md first and follow the DRF repository workflow. Prioritise commercial traction and the smallest safe solution. Use the provider-native delivery path; a provider-created branch or Pull Request is an output artifact, not a permission gate, and must not cause another review hop. Reconcile or close the Issue only when its acceptance is genuinely complete. Never expose secrets."
           payload="$(jq -cn \
             --arg bot "$bot" \
             --arg repo "$GITHUB_REPOSITORY" \
@@ -124,7 +124,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body "DRF dispatch accepted by GitHub for **${EXECUTOR}**. Watch this Issue for the agent session and resulting Pull Request. The agent must stop before self-merge."
+          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body "DRF dispatch accepted by GitHub for **${EXECUTOR}**. Watch this Issue for the provider-native delivery result; a provider-created Pull Request is an output artifact, not an approval gate."
 
   gemini:
     needs: resolve
@@ -134,7 +134,6 @@ jobs:
     permissions:
       contents: write
       issues: write
-      pull-requests: write
     env:
       ISSUE_NUMBER: ${{ needs.resolve.outputs.issue }}
     steps:
@@ -164,12 +163,12 @@ jobs:
 
             Execute the Issue safely:
             1. Prioritise revenue/traction and the smallest viable solution.
-            2. Create branch `issue-${{ needs.resolve.outputs.issue }}-gemini` from current main.
+            2. Work on the current `main`; do not create a branch or Pull Request merely for process.
             3. Make only the changes required by the Issue.
             4. Run the smallest relevant verification.
-            5. Commit and push the branch.
-            6. Open a Pull Request to main with `Refs #${{ needs.resolve.outputs.issue }}` only; do not use closing keywords.
-            7. Do not merge and do not close the Issue.
+            5. Commit and push directly to `main` when acceptance passes.
+            6. Use a branch or Pull Request only when the runtime requires it or review/parallel contribution materially helps.
+            7. Reconcile or close the Issue only when its acceptance is genuinely complete.
             8. Never expose secrets.
 
       - name: Record Gemini completion
