@@ -1,8 +1,6 @@
 name: DRF Agent dispatch
 
 on:
-  issues:
-    types: [opened, reopened]
   workflow_dispatch:
     inputs:
       issue_number:
@@ -20,54 +18,33 @@ permissions:
 
 jobs:
   resolve:
-    if: github.actor == 'tbhrc'
     runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     outputs:
       issue: ${{ steps.route.outputs.issue }}
       executor: ${{ steps.route.outputs.executor }}
-      supported: ${{ steps.route.outputs.supported }}
     steps:
       - id: route
         env:
-          EVENT_NAME: ${{ github.event_name }}
-          ISSUE_EVENT_NUMBER: ${{ github.event.issue.number }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
           INPUT_ISSUE: ${{ inputs.issue_number }}
           INPUT_EXECUTOR: ${{ inputs.executor }}
         shell: bash
         run: |
           set -euo pipefail
-          if [ "$EVENT_NAME" = 'workflow_dispatch' ]; then
-            issue="$INPUT_ISSUE"
-            executor="$INPUT_EXECUTOR"
-          else
-            issue="$ISSUE_EVENT_NUMBER"
-            case "$ISSUE_TITLE" in
-              '[copilot]'*) executor='copilot' ;;
-              '[codex]'*) executor='codex' ;;
-              '[claude]'*) executor='claude' ;;
-              '[gemini]'*) executor='gemini' ;;
-              *) executor='' ;;
-            esac
-          fi
+          issue="$INPUT_ISSUE"
+          executor="$INPUT_EXECUTOR"
 
-          if ! [[ "$issue" =~ ^[0-9]+$ ]]; then
-            echo "Invalid Issue number: $issue" >&2
-            exit 1
-          fi
-
-          supported=false
+          [[ "$issue" =~ ^[0-9]+$ ]] || { echo "Invalid Issue number: $issue" >&2; exit 1; }
           case "$executor" in
-            copilot|codex|claude|gemini) supported=true ;;
+            copilot|codex|claude|gemini) ;;
+            *) echo "Unsupported executor: $executor" >&2; exit 1 ;;
           esac
 
           echo "issue=$issue" >> "$GITHUB_OUTPUT"
           echo "executor=$executor" >> "$GITHUB_OUTPUT"
-          echo "supported=$supported" >> "$GITHUB_OUTPUT"
 
   cloud-agent:
     needs: resolve
-    if: needs.resolve.outputs.supported == 'true' && needs.resolve.outputs.executor != 'gemini'
+    if: needs.resolve.outputs.executor != 'gemini'
     runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     permissions:
       contents: read
@@ -128,7 +105,7 @@ jobs:
 
   gemini:
     needs: resolve
-    if: needs.resolve.outputs.supported == 'true' && needs.resolve.outputs.executor == 'gemini'
+    if: needs.resolve.outputs.executor == 'gemini'
     runs-on: [self-hosted, Linux, tbhrc, ai-engine]
     timeout-minutes: 15
     permissions:
