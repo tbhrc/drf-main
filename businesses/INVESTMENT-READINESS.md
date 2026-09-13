@@ -1,10 +1,10 @@
 # DRF Business Investment Readiness
 
 **Status:** Canonical migration and investment-gate register  
-**Version:** 2.3  
-**Date:** 11 September 2026  
+**Version:** 2.4  
+**Date:** 13 September 2026  
 **Governing issue:** #60  
-**Latest targeted rebuild:** Daily intelligence conversation-quality promotion + GoHighLevel Layer-2 completion — Issue #185 — 11 September 2026  
+**Latest targeted rebuild:** Daily intelligence credit-control + PRO/compliance expansion — Issue #186 — 13 September 2026  
 **Source portfolio:** `businesses/OPPORTUNITIES.md`  
 **Niche source:** `businesses/NICHES.md`
 
@@ -29,7 +29,7 @@ DRF normally defines the **measurable result sold**, then ranks the niches where
 
 That rule has an explicit platform-led exception: when a platform materially defines the sellable packaging, reusable deployment assets, automated provisioning, recurring/rebilling economics, marketplace/distribution or buyer proposition, it may remain part of a first-class opportunity identity. Shared technology or overlapping outcomes alone do not make an opportunity an exact commercial duplicate.
 
-**Current active parent opportunity count: 33.** This is a state count, not a target or ceiling. **50+ qualified active opportunities is a near-term expansion milestone, not a cap.**
+**Current active parent opportunity count: 35.** This is a state count, not a target or ceiling. **50+ qualified active opportunities is a near-term expansion milestone, not a cap.**
 
 For digital products, distribution is a separate downstream layer unless the distribution/platform mechanics materially define an independently testable commercial model:
 
@@ -59,6 +59,7 @@ The niche score remains separate from RBS. A niche can be attractive while the d
 | **1** | **Missed Lead & Appointment Conversion Engine** | Convert more paid and inbound leads into booked appointments before they go cold. | **93** | **88** | **P2 Backtested** | **TEST** | **Up to $3,000** | **EMP3 Market Proven / 92%. Exact Dubai aesthetic booking/show/contribution lift and patient-communication constraints remain DRF-specific.** | **No** | Run one paid Dubai aesthetic-clinic pilot with ≥100 inbound leads/calls/messages where practical; compare contact/booking/show and contribution against a defensible baseline or holdout and require renewal/second-client reuse. |
 | **1** | **Fast Quote-to-Cash System** | **Turn qualified enquiries into a safe commercial number/next step faster, then follow every quote, revision and variation until decision or payment.** | **91** | **82** | **P2 Backtested** | **TEST** | **Up to $3,000** | **EMP3 Market Proven / 90%. UAE rate standardisation, local price acceptance, exception/support burden and attributable quote-to-cash improvement remain the DRF-specific gates.** | **No** | Run one bounded UAE drywall/gypsum transferability test with ≥20 historic quotes/equivalent, pre-written survey/estimator gates and 2 unrelated AED1,000 pilot deposits against ≥AED4,000 setup + ≥AED1,250/month. |
 | **1** | **Agentic AI Specialist Recruitment Agency** | Give UAE/GCC employers rapid access to production-capable Agentic AI engineers verified through live proof-of-work evidence, then manage search/placement. | **90** | **86** | **P1 Desk Underwritten** | **TEST** | **$0 now; up to $3,000 only after founder approval if required for the v0 cohort** | **EMP4 Established and transferable / 94%. Base illustration: 8 placements × AED64,800 = AED518,400 annual placement revenue before costs; no DRF revenue actual.** | **No** | Run the 10-candidate v0 live proof-of-work cohort; require ≥3 verified candidates, ≥2 qualified employer interview/conversation requests and ≥1 paid employer commitment, with human review ≤2 hours/candidate. |
+| **1** | **AI Credit Control & Accounts Receivable Operations** | Run disciplined post-invoice receivables follow-up, promise/dispute tracking and selected escalation so UAE B2B SMEs collect cash more consistently without a full-time credit controller. | **89** | **85** | **P1 Desk Underwritten** | **TEST** | **$0 now; up to $3,000 only after founder-approved paid proof if required** | **EMP4 Established and transferable / 95%. Best niche is UAE B2B service/trading SMEs with 50–500 invoices/month at 89/100 / 91%. Desk illustration: 5 × AED1,750/month = AED8,750 MRR plus onboarding; human escalation/dispute minutes are the main cost gate.** | **No** | Secure 2 unrelated paid UAE B2B clients at ≥AED1,500 onboarding + ≥AED1,750/month, run one 30-day real-ledger cycle and measure cash/ageing change, human escalation, contribution and renewal. |
 | **1** | **Assessment-as-a-Service Managed Retainer** | Continuously assess and evidence candidate quality without rebuilding the assessment process for every vacancy. | **85** | Pending | Pending | RESEARCH | $0 | Pending | No | Rebuild existing Talent Bridge service economics, capacity and retainer return. |
 | **1** | **Partner-Delivered Recruitment / Score Hire Model** | Fill vacancies through a controlled recruitment service while partner delivery reduces founder/team fulfilment load. | **85** | Pending | Pending | RESEARCH | $0 | Pending | No | Rebuild fee, partner split, replacement risk, cycle time and cash conversion. |
 | **2** | **AI Support & Sales Assistant** | Resolve repetitive guest/service conversations safely, reduce staff workload and improve response quality without creating a second disconnected inbox. | **90** | **80** | **P1 Desk Underwritten** | **TEST** | **$0 until native-gap proof; then up to $3,000 with founder approval** | **EMP4 / 94% validates the category. Base desk case: 3 managed clients × AED3,000/month = AED9,000 MRR; native-PMS substitution and support remain live gates.** | **No** | Benchmark ≥1,000 messages each across 3 Dubai holiday-home operators/PMS contexts; require ≥25% incremental safe-resolution or staff-time value on at least 2/3 plus one paid managed-layer commitment. |
@@ -78,6 +79,7 @@ The niche score remains separate from RBS. A niche can be attractive while the d
 | **2** | **UAE/GCC Talent Intelligence & Salary Data Subscription** | Give employers and recruiters current regional talent and salary intelligence as a recurring decision product. | **85** | Pending | Pending | RESEARCH | $0 | Pending | No | Verify lawful data, price, buyer demand and recurring update cost. |
 | **2** | **Niche API & Data Product Factory** | Sell one recurring high-value function or data feed that removes a costly information/workflow gap. | **84** | Pending | Pending | RESEARCH | $0 | Pending | No | Identify one paid recurring function/data problem before factory scope. |
 | **2** | **Local SEO Rank-and-Rent Lead Asset Portfolio** | Own ranked local demand assets and rent/sell qualified lead flow for recurring cash. | **84** | Pending | Pending | RESEARCH | $0 | Pending | No | Build site-level monthly cash, ranking delay, lead and renter economics. |
+| **2** | **AI-Enabled PRO & Workforce Compliance Operations** | Keep recurring UAE company/workforce compliance events prepared, tracked and completed on time with AI-assisted document/deadline handling plus authorised human/provider execution. | **84** | **80** | **P1 Desk Underwritten** | **TEST** | **$0 now; up to $3,000 only after founder-approved paid proof if required** | **EMP3 Market Proven / 94%. Best niche is UAE mainland professional/business-services SMEs with 10–50 staff at 86/100 / 89%. Desk illustration: 5 × AED1,500/month = AED7,500 MRR plus setup; authority/provider and exception minutes are the main margin gate.** | **No** | Secure 2 unrelated paid UAE SMEs at ≥AED1,500 onboarding + ≥AED1,500/month; over 60 days process ≥10 live events where volume permits and prove no material deadline failures, bounded human/provider work, positive contribution and renewal. |
 | **3** | **Executive Career Accelerator / Job Search Platform** | Help professionals secure stronger roles faster through a productised career-search system. | **81** | Pending | Pending | RESEARCH | $0 | Pending | No | Rebuild upfront/recurring/upsell mix and finite-programme economics. |
 | **3** | **Pre-Assessed Talent Pool Subscription** | Give employers faster access to a fresh pool of pre-assessed, consented candidates. | **81** | Pending | Pending | RESEARCH | $0 | Pending | No | Model consent, freshness, supply density, employer demand and churn. |
 | **3** | **ChatGPT Plugin / App Factory** | Launch monetisable AI apps where a recurring backend or transaction stream survives beyond the app build. | **79** | Pending | Pending | RESEARCH | $0 | Pending | No | Define the recurring backend/revenue stream before app production. |
@@ -88,7 +90,7 @@ The niche score remains separate from RBS. A niche can be attractive while the d
 
 ### GoHighLevel core-opportunity treatment
 
-`Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor` is active under founder direction #169. The former retirement under #166 is superseded. Its current 11 September state is **EMP3 / RBS84 / P1 / TEST** with UAE HVAC/AC service contractors as the selected 88/89 niche. HighLevel can simultaneously serve as infrastructure inside other outcome-first opportunities; that reuse does not remove this independently testable founder-origin model.
+`Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor` is active under founder direction #169. The former retirement under #166 is superseded. Its current state is **EMP3 / RBS84 / P1 / TEST** with UAE HVAC/AC service contractors as the selected 88/89 niche. HighLevel can simultaneously serve as infrastructure inside other outcome-first opportunities; that reuse does not remove this independently testable founder-origin model.
 
 ---
 
@@ -112,6 +114,8 @@ For renamed outcome-first labels, use the following joins during migration:
 - `Autonomous AI Revenue Operations Business-in-a-Box` ↔ legacy folder `grok-bot-ai-revenue-operations`; Grok Bot remains a delivery rail.
 - `Vertical SaaS / Snapshot Business-in-a-Box — GoHighLevel Anchor` ↔ `highlevel-vertical-saas-snapshot`; current best niche is UAE HVAC/AC service contractors at 88/89 under #185.
 - `AI Conversation Quality & Revenue Intelligence` ↔ `ai-conversation-quality-revenue-intelligence`; current best niche is Dubai real-estate sales teams at 88/86 under #185.
+- `AI Credit Control & Accounts Receivable Operations` ↔ `ai-credit-control-accounts-receivable-operations`; current best niche is UAE B2B service/trading SMEs at 89/91 under #186.
+- `AI-Enabled PRO & Workforce Compliance Operations` ↔ `ai-enabled-pro-workforce-compliance-operations`; current best niche is UAE mainland professional/business-services SMEs at 86/89 under #186.
 
 ---
 
